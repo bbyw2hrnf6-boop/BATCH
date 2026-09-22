@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { ArrowRight, Check, Languages } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
@@ -13,12 +13,10 @@ const choices: { value: Language; code: string; name: string; action: string }[]
 ];
 
 export default function LanguageWelcome() {
-  const { language, languageReady, setLanguage, t } = useI18n();
-  // Show on every page opening, including for returning visitors.
-  const [open, setOpen] = useState(true);
+  const { language, languageReady, languageChoiceConfirmed, setLanguage, t } = useI18n();
   const buttons = useRef<Partial<Record<Language, HTMLButtonElement | null>>>({});
 
-  return <Dialog open={languageReady && open} onOpenChange={setOpen}>
+  return <Dialog open={languageReady && !languageChoiceConfirmed} onOpenChange={() => {}}>
     <DialogContent className="language-welcome" showCloseButton={false}
       onOpenAutoFocus={event => { event.preventDefault(); buttons.current[language]?.focus(); }}
       onCloseAutoFocus={event => { event.preventDefault(); document.getElementById('language-switcher')?.focus(); }}>
@@ -27,7 +25,7 @@ export default function LanguageWelcome() {
         <DialogTitle>{t('Sprache wählen')}</DialogTitle>
         <DialogDescription><span lang="de">Willkommen</span> · <span lang="en">Welcome</span> · <span lang="nb">Velkommen</span></DialogDescription>
       </DialogHeader>
-      <div className="welcome-choices">{choices.map(choice => <Button key={choice.value} ref={node => { buttons.current[choice.value] = node; }} type="button" variant="outline" className={`welcome-choice ${language === choice.value ? 'is-preferred' : ''}`} lang={choice.value} onClick={() => { setLanguage(choice.value); setOpen(false); }}>
+      <div className="welcome-choices">{choices.map(choice => <Button key={choice.value} ref={node => { buttons.current[choice.value] = node; }} type="button" variant="outline" className={`welcome-choice ${language === choice.value ? 'is-preferred' : ''}`} lang={choice.value} onClick={() => setLanguage(choice.value)}>
         <span className="welcome-code" aria-hidden="true">{choice.code}</span><span className="welcome-choice-copy"><strong>{choice.name}</strong><span>{choice.action}</span></span>{language === choice.value ? <Check className="welcome-choice-icon" aria-hidden="true" /> : <ArrowRight className="welcome-choice-icon" aria-hidden="true" />}
       </Button>)}</div>
       <p className="welcome-help">{t('Du kannst die Sprache jederzeit oben in der App ändern.')}</p>

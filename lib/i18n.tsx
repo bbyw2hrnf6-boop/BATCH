@@ -10,6 +10,23 @@ export type Language = 'de' | 'en' | 'nb';
 type Parameters = Record<string, string | number>;
 const dictionary = messages as Record<string, { en: string; nb: string }>;
 const locales: Record<Language, string> = { de: 'de-DE', en: 'en-GB', nb: 'nb-NO' };
+const languageStorageKey = 'batch-display-language';
+const languageCookieName = 'batch-display-language';
+
+function isLanguage(value: string | null): value is Language {
+  return value === 'de' || value === 'en' || value === 'nb';
+}
+
+function readCookie(name: string) {
+  const prefix = `${name}=`;
+  return document.cookie.split('; ').find(cookie => cookie.startsWith(prefix))?.slice(prefix.length) ?? null;
+}
+
+function saveLanguage(language: Language) {
+  try { localStorage.setItem(languageStorageKey, language); } catch {}
+  try { document.cookie = `${languageCookieName}=${language}; path=/; max-age=31536000; samesite=lax`; } catch {}
+}
+
 const defaults = { ingredients: [...seedState().ingredients, ...legacySeedState().ingredients], recipes: [...seedState().recipes, ...legacySeedState().recipes] };
 
 export function errorMessage(error: unknown, fallback: string) {
@@ -37,16 +54,20 @@ function languageHelpers(language: Language) {
   return { t, format, ingredientName, recipeNote };
 }
 
-const I18nContext = createContext({ language: 'de' as Language, languageReady: false, setLanguage: (_: Language) => {}, ...languageHelpers('de') });
+const I18nContext = createContext({ language: 'de' as Language, languageReady: false, languageChoiceConfirmed: false, setLanguage: (_: Language) => {}, ...languageHelpers('de') });
 
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageValue] = useState<Language>('de');
   const [languageReady, setLanguageReady] = useState(false);
+  const [languageChoiceConfirmed, setLanguageChoiceConfirmed] = useState(false);
   useEffect(() => {
     let next: Language = 'de';
     try {
-      const saved = localStorage.getItem('batch-display-language');
-      if (saved === 'de' || saved === 'en' || saved === 'nb') next = saved;
+      const saved = localStorage.getItem(languageStorageKey) ?? readCookie(languageCookieName);
+      if (isLanguage(saved)) {
+        next = saved;
+        setLanguageChoiceConfirmed(true);
+      }
       else {
         const browser = navigator.languages?.[0]?.toLowerCase() || navigator.language.toLowerCase();
         next = /^(nb|no|nn)/.test(browser) ? 'nb' : browser.startsWith('de') ? 'de' : 'en';
@@ -61,8 +82,9 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   }, [language]);
   const value = useMemo(() => ({ language, languageReady, ...languageHelpers(language), setLanguage: (next: Language) => {
     setLanguageValue(next);
-    try { localStorage.setItem('batch-display-language', next); } catch {}
-  } }), [language, languageReady]);
+    setLanguageChoiceConfirmed(true);
+    saveLanguage(next);
+  }, languageChoiceConfirmed }), [language, languageReady, languageChoiceConfirmed]);
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
 }
 
