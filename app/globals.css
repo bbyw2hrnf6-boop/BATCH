@@ -551,3 +551,58 @@ h1 { font-size: clamp(36px, 4.8vw, 66px); font-weight: 760; letter-spacing: -.04
 .photo-status { display: flex; align-items: center; gap: 7px; }
 @media (max-width: 420px) { .recipe-photo-editor { gap: 12px; padding: 12px; } .photo-preview { width: 75px; height: 110px; } }
 @media (prefers-reduced-motion: reduce) { .is-selected .drink-generated, .photo-preview .drink-generated { animation: none; } }
+
+/* Compact, touch-friendly inventory flow on phones. */
+.mobile-results { display: none; }
+@media (max-width: 700px) {
+  .app-shell { width: 100%; overflow-x: clip; }
+  .brand-header { height: 68px; }
+  .page-heading { margin: 17px 0 12px; }
+  h1 { font-size: clamp(28px, 8vw, 37px); }
+  .main-nav [data-slot="tabs-trigger"] { flex: 1; min-height: 60px; }
+  .drink-image-wrap { height: clamp(150px, 43vw, 195px); }
+  .drink-choice > strong { min-height: 24px; }
+  .gallery-arrow[data-slot="button"] { width: 44px; height: 44px; }
+  .drink-dots button { width: 40px; min-height: 44px; }
+  .inventory-grid { gap: 13px; }
+  .count-controls { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .bottle-gauges { width: 100%; max-height: 105px; flex-direction: row; align-items: flex-start; justify-content: flex-start; gap: 2px; overflow-x: auto; overflow-y: hidden; }
+  .bottle-gauge { width: 78px; }
+  .stepper { grid-template-columns: 46px minmax(0, 1fr) 46px; height: 58px; }
+  .stepper [data-slot="button"] { width: 46px; height: 46px; }
+  .stepper [data-slot="input"] { height: 46px; }
+  .open-heading [data-slot="select-trigger"] { min-height: 44px; height: 44px; }
+  .open-bottle [data-slot="button"] { width: 44px; min-width: 44px; height: 44px; }
+  .checkbox-row { min-height: 44px; }
+  .checkbox-row [data-slot="checkbox"] { width: 22px; height: 22px; }
+  .heading-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; gap: 8px; }
+  .heading-actions [data-slot="button"] { min-width: 0; min-height: 48px; height: auto; padding: 8px; white-space: normal; line-height: 1.2; }
+  .heading-actions [data-slot="button"]:last-child { grid-column: 1 / -1; }
+  .recipe-edit-line { grid-template-columns: minmax(0, 1fr) 44px; gap: 8px; }
+  .recipe-edit-line [data-slot="select-trigger"] { grid-column: 1 / -1; }
+  .recipe-edit-line [data-slot="button"] { width: 44px; height: 44px; }
+  .result-surface { display: none; }
+  .mobile-results { display: grid; gap: 12px; }
+  .mobile-result-card { min-width: 0; padding: 18px; border: 1px solid #91b4ce29; border-radius: 15px; background: #0e1923; }
+  .mobile-result-title { min-height: 44px; width: 100%; font-size: 18px; font-weight: 650; color: #f0f6fb; }
+  .mobile-result-card > p { margin: 3px 0 15px; color: #a9becf; font-size: 13px; overflow-wrap: anywhere; }
+  .mobile-result-card dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; border-top: 1px solid #aac6d720; border-bottom: 1px solid #aac6d720; }
+  .mobile-result-card dl > div { min-width: 0; padding: 12px 7px; }
+  .mobile-result-card dl > div:first-child { padding-left: 0; }
+  .mobile-result-card dl > div:last-child { padding-right: 0; }
+  .mobile-result-card dl > div + div { border-left: 1px solid #aac6d720; }
+  .mobile-result-card dt { color: #9eb6c9; font-size: 11px; line-height: 1.25; }
+  .mobile-result-card dd { margin: 6px 0 0; font-size: clamp(18px, 5vw, 24px); line-height: 1.15; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .mobile-result-card dd small { font-size: .55em; }
+  .mobile-result-card .result-sources { margin-top: 12px; }
+  .editor-dialog[data-slot="dialog-content"], .ingredients-dialog[data-slot="dialog-content"], .language-welcome[data-slot="dialog-content"] { max-height: calc(100dvh - 32px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); overscroll-behavior: contain; }
+  .ingredient-item > span:last-child { white-space: normal; text-align: right; }
+  .photo-buttons [data-slot="button"] { flex: 1; }
+  .catalog-notice button { width: 100%; justify-content: flex-start; margin-left: 0; }
+}
+@media (max-width: 370px) {
+  .brand small { font-size: 10px; }
+  .main-nav [data-slot="tabs-trigger"] { font-size: 11px; }
+  .mobile-result-card { padding: 14px; }
+  .mobile-result-card dt { font-size: 10px; }
+}
