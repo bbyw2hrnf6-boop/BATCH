@@ -36,10 +36,13 @@ export default function RecipePhoto({ recipe, value, onChange, disabled, onBusyC
     try {
       const body = await preparePhoto(file);
       if (operation.signal.aborted) return;
-      const response = await fetch('/api/recipe-images', { method: 'POST', headers: { 'Content-Type': 'image/jpeg' }, body, signal: operation.signal });
-      const result = await response.json() as { photoId?: string; error?: string };
-      if (!response.ok || !result.photoId) throw new Error(result.error || 'Bild konnte nicht gespeichert werden. Bitte erneut versuchen.');
-      onChange(result.photoId);
+      const dataUrl = await new Promise<string>((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(String(reader.result));
+        reader.onerror = () => reject(new Error('Bild konnte nicht gespeichert werden. Bitte erneut versuchen.'));
+        reader.readAsDataURL(body);
+      });
+      onChange(dataUrl);
     } catch (e) { setError(errorMessage(e, 'Bild konnte nicht gespeichert werden. Bitte erneut versuchen.')); }
     finally { window.clearTimeout(timeout); setBusy(false); onBusyChange(false); }
   };

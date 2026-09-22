@@ -24,6 +24,7 @@ import BottleLevel from './bottle-level';
 import CatalogReference from './catalog-reference';
 import RecipePhoto from './recipe-photo';
 import ProductFields, { productDraft, productFromDraft, type ProductDraft } from './product-fields';
+import { loadLocalInventory, saveLocalInventory } from '@/lib/client-storage';
 
 type Save = (next: InventoryState) => Promise<boolean>;
 const freshId = () => crypto.randomUUID();
@@ -34,6 +35,7 @@ function Quantity({ label, value, onChange, unit = 'ml', disabled = false }: { l
 
 export default function InventoryApp() {
   const { t, format, language, setLanguage, ingredientName } = useI18n();
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const [state, setState] = useState<InventoryState>(seedState);
   const [revision, setRevision] = useState(0);
   const [ready, setReady] = useState(false);
@@ -41,7 +43,6 @@ export default function InventoryApp() {
   const [busy, setBusy] = useState(false);
   const saving = useRef(false);
   const [error, setError] = useState('');
-  const [needsAuth, setNeedsAuth] = useState(false);
   const [conflict, setConflict] = useState(false);
   const [tab, setTab] = useState('inventory');
   const [selected, setSelected] = useState<string | null>(null);
@@ -55,11 +56,8 @@ export default function InventoryApp() {
   const load = useCallback(async () => {
     setLoading(true); setError('');
     try {
-      const response = await fetch('/api/inventory', { cache: 'no-store' });
-      const data = await response.json() as { error?: string; state: unknown; revision: number; updatedAt: string | null };
-      setNeedsAuth(response.status === 401);
-      if (!response.ok) throw new Error(data.error || t("Laden fehlgeschlagen."));
-      setState(stateSchema.parse(data.state)); setRevision(data.revision); setSavedAt(data.updatedAt);
+      const data = loadLocalInventory();
+      setState(data.state); setRevision(data.revision); setSavedAt(data.updatedAt);
       setReady(true); setConflict(false); setSelected(null); setRecipeEdit(null); setIngredientEdit(null);
     } catch (e) { setError(errorMessage(e, 'Deine Inventur konnte nicht geladen werden.')); }
     finally { setLoading(false); }
@@ -72,12 +70,8 @@ export default function InventoryApp() {
     if (!parsed.success) { toast.error(t('Bitte deine Eingaben prüfen.')); return false; }
     saving.current = true; setBusy(true); setError('');
     try {
-      const response = await fetch('/api/inventory', { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ revision, state: parsed.data }) });
-      const data = await response.json() as { error?: string; state: unknown; revision: number; updatedAt: string | null };
-      setNeedsAuth(response.status === 401);
-      if (response.status === 409) setConflict(true);
-      if (!response.ok) throw new Error(data.error || t("Speichern fehlgeschlagen."));
-      setState(parsed.data); setRevision(data.revision); setSavedAt(data.updatedAt); return true;
+      const data = saveLocalInventory(parsed.data, revision);
+      setState(data.state); setRevision(data.revision); setSavedAt(data.updatedAt); return true;
     } catch (e) { const message = errorMessage(e, 'Speichern fehlgeschlagen. Deine Eingaben bleiben erhalten.'); setError(message); toast.error(t(message)); return false; }
     finally { setBusy(false); saving.current = false; }
   };
@@ -122,12 +116,12 @@ export default function InventoryApp() {
   };
 
   return <main className="app-shell">
-    <header className="brand-header"><a className="brand" href="/" aria-label={t('BATCH Startseite')}><span>BATCH<small>AFTER HOURS</small></span></a><div className="header-actions"><button className="header-guide" onClick={() => setTab('guide')}><CircleHelp size={18} /><span>{t('Guide')}</span></button><div className="language-picker"><Globe2 size={17} /><Select value={language} onValueChange={next => setLanguage(next as Language)}><SelectTrigger id="language-switcher" aria-label={t('Sprache')}><SelectValue /></SelectTrigger><SelectContent><SelectItem value="de">Deutsch</SelectItem><SelectItem value="en">English</SelectItem><SelectItem value="nb">Norsk bokmål</SelectItem></SelectContent></Select></div></div></header>
+    <header className="brand-header"><a className="brand" href={`${basePath}/`} aria-label={t('BATCH Startseite')}><span>BATCH<small>AFTER HOURS</small></span></a><div className="header-actions"><button className="header-guide" onClick={() => setTab('guide')}><CircleHelp size={18} /><span>{t('Guide')}</span></button><div className="language-picker"><Globe2 size={17} /><Select value={language} onValueChange={next => setLanguage(next as Language)}><SelectTrigger id="language-switcher" aria-label={t('Sprache')}><SelectValue /></SelectTrigger><SelectContent><SelectItem value="de">Deutsch</SelectItem><SelectItem value="en">English</SelectItem><SelectItem value="nb">Norsk bokmål</SelectItem></SelectContent></Select></div></div></header>
     <Tabs value={tab} onValueChange={value => { setTab(value); setSelected(null); }} className="app-tabs">
       <div className="page-heading"><div><p className="eyebrow"><span />{t('Bar-Inventur')}</p><h1>{tab === 'inventory' ? t('Alles im Blick.') : tab === 'recipes' ? t('Deine Rezepte.') : tab === 'guide' ? t('So funktioniert’s') : t('Alles aufgelöst.')}</h1></div><div className="save-status" role="status">{busy || loading ? <Loader2 className="spin" size={16} /> : savedAt ? <CheckCheck size={17} /> : <FlaskConical size={17} />}<span>{busy ? t('Speichert …') : loading ? t('Lädt …') : savedAt ? t('Gespeichert') : t('Bereit zum Zählen')}</span></div></div><TabsList className="main-nav" aria-label={t('App-Bereiche')}><TabsTrigger value="inventory"><ClipboardList />{t('Zählen')}</TabsTrigger><TabsTrigger value="recipes"><BookOpen />{t('Rezepte')}</TabsTrigger><TabsTrigger value="results"><CheckCheck />{t('Ergebnis')}</TabsTrigger><TabsTrigger value="guide"><CircleHelp />{t('Guide')}</TabsTrigger></TabsList>
       {hasDemo && <div className="demo-notice"><span className="demo-tag">{t("DEMO-REZEPTE")}</span><span>{t("Zum Ausprobieren. Für die echte Inventur die Bar-Rezepte einsetzen.")}</span><button onClick={() => setTab('recipes')} aria-label={t("Demo-Rezepte bearbeiten")}><ArrowRight size={18} /></button></div>}
       {!hasDemo && <div className="catalog-notice"><BookOpen size={18} /><div><strong>{t('Eure Bar-Rezepte sind bereit.')}</strong><span>{t('Nur rote Batch-Zutaten zählen. Produktnamen und Flaschengrößen kannst du anpassen.')}</span></div><button type="button" onClick={() => { setTab('recipes'); setIngredientsOpen(true); }} disabled={disabled}>{t('Produkte einrichten')}<ArrowRight size={16} /></button></div>}
-      {error && <div className="error-notice" role="alert"><p>{t(error)}</p>{needsAuth ? <a href="/signin-with-chatgpt?return_to=%2F" target="_top">{t("Mit ChatGPT anmelden")}</a> : <Button variant="outline" disabled={loading} onClick={() => void load()}>{conflict ? t("Serverstand laden (offene Eingaben verwerfen)") : t("Erneut laden")}</Button>}</div>}
+      {error && <div className="error-notice" role="alert"><p>{t(error)}</p><Button variant="outline" disabled={loading} onClick={() => void load()}>{t("Erneut laden")}</Button></div>}
 
       <TabsContent value="inventory">
         <div className="inventory-grid">

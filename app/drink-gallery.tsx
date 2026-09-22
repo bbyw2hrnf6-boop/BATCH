@@ -27,8 +27,10 @@ export function DrinkArtwork({ recipe, priority = false }: { recipe: Recipe; pri
   const [failedPhoto, setFailedPhoto] = useState<string | undefined>();
   const defaults = ['apple-fig', 'mandarin-bergamot', 'blueberry-spritz', 'funky-pinacolada', 'top-lemonade', 'paloma'];
   const hash = Array.from(recipe.id).reduce((value, char) => ((value * 31 + char.charCodeAt(0)) >>> 0), 0);
-  const custom = Boolean(recipe.photoId && failedPhoto !== recipe.photoId);
-  const src = custom ? `/api/recipe-images/${recipe.photoId}` : artwork[recipe.id] || artwork[`bar-${recipe.catalogKey}`] || artwork[`bar-${defaults[hash % defaults.length]}`];
+  const custom = Boolean(recipe.photoId?.startsWith('data:image/') && failedPhoto !== recipe.photoId);
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const fallback = artwork[recipe.id] || artwork[`bar-${recipe.catalogKey}`] || artwork[`bar-${defaults[hash % defaults.length]}`];
+  const src = custom ? recipe.photoId! : `${basePath}${fallback}`;
   return <img key={src} src={src} alt={custom ? recipe.name : ''} width={600} height={800} loading={priority ? 'eager' : 'lazy'} fetchPriority={priority ? 'high' : 'auto'} decoding="async" draggable={false} className={`drink-artwork ${custom ? 'drink-photo' : 'drink-generated'}`} onError={custom ? () => setFailedPhoto(recipe.photoId) : undefined} />;
 }
 
