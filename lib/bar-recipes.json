@@ -1,0 +1,467 @@
+{
+  "catalogVersion": 1,
+  "title": "BATCH · Bar-Rezepte aus den bereitgestellten Fotos",
+  "rules": [
+    "Nur die roten Batch-Zutaten gehören in die Inventurrechnung. Alicia hat dies im Chat bestätigt.",
+    "Servierzugaben, Eis und Garnitur sind kein Teil des abgefüllten Batches.",
+    "Alle Originalflaschengrößen müssen anhand der tatsächlich verwendeten Produkte eingegeben werden.",
+    "Infusionen werden zunächst als fertige Zutat in ml/cl ausgewiesen. Der Faktor zum Originalprodukt muss ausdrücklich bestätigt werden.",
+    "700 ml ist die editierbare Batch-Flaschenvorgabe aus der vorherigen Beschreibung, keine Angabe auf diesen Rezeptblättern."
+  ],
+  "sources": [
+    {
+      "id": "recipe-1",
+      "file": "4e22cd1f-72bb-4115-a629-584d1ca71f90.jpeg",
+      "description": "Rezeptblatt 1: Apple Fig bis Beginn Funky Pinacolada"
+    },
+    {
+      "id": "recipe-2",
+      "file": "4aed8e4f-a2d6-43e4-a78d-7d17e1fd3ef8.jpeg",
+      "description": "Rezeptblatt 2: Funky-Batch, Lemonade, Paloma, Top Tea"
+    },
+    {
+      "id": "service-1",
+      "file": "65172e34-83fe-4627-b51a-6c470cf0368b.jpeg",
+      "description": "Serviceblatt: Apple Fig, Mandarin Bergamot, Blueberry Spritz, Funky Pinacolada"
+    },
+    {
+      "id": "service-2",
+      "file": "a9c605ff-32d1-4fa5-919c-b54f4e2c47d5.jpeg",
+      "description": "Serviceblatt: TOP Lemonade, Paloma, The Top Tea"
+    },
+    {
+      "id": "alicia-chat",
+      "file": "IMG_8525.png",
+      "description": "Bestätigung: nur rote Batch-Zutaten; Produkt/Marke muss frei eingebbar sein."
+    }
+  ],
+  "products": [
+    {
+      "id": "bar-jack-apple",
+      "name": "Jack Daniel’s Apple",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-plum",
+      "name": "Attat plommlikor (laut Blatt)",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-drambui",
+      "name": "Drambui (laut Blatt)",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-bacardi-8",
+      "name": "Bacardi 8",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-tio-pepe",
+      "name": "Tio Pepe",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-bols-banana",
+      "name": "Bols Banana Liqueur",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-vodka-spirulina",
+      "name": "Vodka · Spirulina-Infusion",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": null,
+      "preparation": "Vodka mit Spirulina-Pulver mischen. Pulvermenge, Marke und Ausbeute fehlen."
+    },
+    {
+      "id": "bar-blueberry",
+      "name": "Bareksten Blueberry Liqueur",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-sugar",
+      "name": "Sugar (10 ml laut Blatt)",
+      "bottleMl": null,
+      "spirit": false,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-coconut-ube",
+      "name": "Bacardi Coconut Rum · Ube-Infusion",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": null,
+      "preparation": "Coconut Rum mit Ube-Pulver mischen. Pulvermenge und Ausbeute fehlen."
+    },
+    {
+      "id": "bar-xante",
+      "name": "Xante",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-bacardi-rum",
+      "name": "Bacardi Rum (Variante offen)",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-gin-butterfly",
+      "name": "Gin · Butterfly-Pea-Infusion",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": null,
+      "preparation": "Gin mit Butterfly-Pea-Tee mischen. Marke, Teemenge und Ausbeute fehlen."
+    },
+    {
+      "id": "bar-elderflower",
+      "name": "Bareksten Elderflower",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-tequila-chili",
+      "name": "Tequila · Chili-Infusion",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": null,
+      "preparation": "Tequila mit Chili infundieren. Marke, Chilimenge und Ausbeute fehlen."
+    },
+    {
+      "id": "bar-mezcal",
+      "name": "Mezcal (Marke offen)",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-hendricks-cabaret",
+      "name": "Hendricks Cabaret",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-peach",
+      "name": "Peach Liqueur (Marke offen)",
+      "bottleMl": null,
+      "spirit": true,
+      "stockFactor": 1,
+      "preparation": null
+    },
+    {
+      "id": "bar-cane-syrup",
+      "name": "Cane sugar syrup · fertig",
+      "bottleMl": null,
+      "spirit": false,
+      "stockFactor": 1,
+      "preparation": null
+    }
+  ],
+  "recipes": [
+    {
+      "key": "apple-fig",
+      "id": "bar-apple-fig",
+      "name": "Apple Fig",
+      "batchPortionMl": 40,
+      "lines": [
+        {
+          "ingredientId": "bar-jack-apple",
+          "ml": 25
+        },
+        {
+          "ingredientId": "bar-plum",
+          "ml": 10
+        },
+        {
+          "ingredientId": "bar-drambui",
+          "ml": 5
+        }
+      ],
+      "servingAdditions": [
+        {
+          "name": "Fig Soda Three Cents",
+          "ml": 100
+        }
+      ],
+      "glass": "White wine glass",
+      "garnish": "Apple / Dry Apple",
+      "method": "Building",
+      "preparation": "",
+      "issues": [
+        "Produktbezeichnungen „Attat plommlikor“ und „Drambui“ wurden wie auf dem Blatt übernommen; Flaschenetiketten bitte abgleichen."
+      ],
+      "sourcePages": [
+        "recipe-1",
+        "service-1"
+      ],
+      "servingTotalMl": 140
+    },
+    {
+      "key": "mandarin-bergamot",
+      "id": "bar-mandarin-bergamot",
+      "name": "Mandarin Bergamot",
+      "batchPortionMl": 40,
+      "lines": [
+        {
+          "ingredientId": "bar-bacardi-8",
+          "ml": 20
+        },
+        {
+          "ingredientId": "bar-tio-pepe",
+          "ml": 10
+        },
+        {
+          "ingredientId": "bar-bols-banana",
+          "ml": 10
+        }
+      ],
+      "servingAdditions": [
+        {
+          "name": "Lime juice",
+          "ml": 10
+        },
+        {
+          "name": "Mandarin & Bergamot soda",
+          "ml": 100
+        }
+      ],
+      "glass": "White wine glass",
+      "garnish": "Banana chips",
+      "method": "Building",
+      "preparation": "",
+      "issues": [],
+      "sourcePages": [
+        "recipe-1",
+        "service-1"
+      ],
+      "servingTotalMl": 150
+    },
+    {
+      "key": "blueberry-spritz",
+      "id": "bar-blueberry-spritz",
+      "name": "Blueberry Spritz",
+      "batchPortionMl": 50,
+      "lines": [
+        {
+          "ingredientId": "bar-vodka-spirulina",
+          "ml": 10
+        },
+        {
+          "ingredientId": "bar-blueberry",
+          "ml": 30
+        },
+        {
+          "ingredientId": "bar-sugar",
+          "ml": 10
+        }
+      ],
+      "servingAdditions": [
+        {
+          "name": "Prosecco",
+          "ml": null
+        }
+      ],
+      "glass": "White wine glass",
+      "garnish": "Blueberry",
+      "method": "Building",
+      "preparation": "Vodka mit Spirulina-Pulver mischen.",
+      "issues": [
+        "Die Prosecco-Menge ist nicht angegeben.",
+        "„Sugar“ ist mit 10 ml angegeben; Art und Zubereitung des flüssigen Zuckerprodukts sind nicht angegeben. Nicht automatisch mit dem Cane sugar syrup gleichsetzen."
+      ],
+      "sourcePages": [
+        "recipe-1",
+        "service-1"
+      ],
+      "servingTotalMl": null
+    },
+    {
+      "key": "funky-pinacolada",
+      "id": "bar-funky-pinacolada",
+      "name": "Funky Pinacolada",
+      "batchPortionMl": 40,
+      "lines": [
+        {
+          "ingredientId": "bar-coconut-ube",
+          "ml": 20
+        },
+        {
+          "ingredientId": "bar-xante",
+          "ml": 10
+        },
+        {
+          "ingredientId": "bar-bacardi-rum",
+          "ml": 10
+        }
+      ],
+      "servingAdditions": [
+        {
+          "name": "Lime",
+          "ml": 10
+        },
+        {
+          "name": "Pineapple Soda",
+          "ml": 100
+        }
+      ],
+      "glass": "White wine glass",
+      "garnish": "Coconut or Raspberry",
+      "method": "Building",
+      "preparation": "Coconut Rum mit Ube-Pulver mischen.",
+      "issues": [],
+      "sourcePages": [
+        "recipe-1",
+        "recipe-2",
+        "service-1"
+      ],
+      "servingTotalMl": 150
+    },
+    {
+      "key": "top-lemonade",
+      "id": "bar-top-lemonade",
+      "name": "TOP Lemonade",
+      "batchPortionMl": 40,
+      "lines": [
+        {
+          "ingredientId": "bar-gin-butterfly",
+          "ml": 25
+        },
+        {
+          "ingredientId": "bar-elderflower",
+          "ml": 15
+        }
+      ],
+      "servingAdditions": [
+        {
+          "name": "Lemon juice",
+          "ml": 20
+        },
+        {
+          "name": "Sprite",
+          "ml": 100
+        }
+      ],
+      "glass": "White wine glass",
+      "garnish": "Lime",
+      "method": "Building",
+      "preparation": "Gin mit Butterfly-Pea-Tee mischen.",
+      "issues": [],
+      "sourcePages": [
+        "recipe-2",
+        "service-2"
+      ],
+      "servingTotalMl": 160
+    },
+    {
+      "key": "paloma",
+      "id": "bar-paloma",
+      "name": "Paloma",
+      "batchPortionMl": 40,
+      "lines": [
+        {
+          "ingredientId": "bar-tequila-chili",
+          "ml": 30
+        },
+        {
+          "ingredientId": "bar-mezcal",
+          "ml": 10
+        }
+      ],
+      "servingAdditions": [
+        {
+          "name": "Lime",
+          "ml": 10
+        },
+        {
+          "name": "Pink grapefruit soda",
+          "ml": 100
+        }
+      ],
+      "glass": "White wine glass",
+      "garnish": "Tajin crust",
+      "method": "Building",
+      "preparation": "Tequila mit Chili infundieren.",
+      "issues": [],
+      "sourcePages": [
+        "recipe-2",
+        "service-2"
+      ],
+      "servingTotalMl": 150
+    },
+    {
+      "key": "top-tea",
+      "id": "bar-top-tea",
+      "name": "The Top Tea",
+      "batchPortionMl": 60,
+      "lines": [
+        {
+          "ingredientId": "bar-hendricks-cabaret",
+          "ml": 30
+        },
+        {
+          "ingredientId": "bar-peach",
+          "ml": 10
+        },
+        {
+          "ingredientId": "bar-cane-syrup",
+          "ml": 20
+        }
+      ],
+      "servingAdditions": [
+        {
+          "name": "Chamomile tea",
+          "ml": 60
+        },
+        {
+          "name": "Lemon juice / Lime juice — offen",
+          "ml": 20
+        }
+      ],
+      "glass": "Hendricks tea pot and cups / Teapot + cup",
+      "garnish": "Some citrus / lemon slice in cup",
+      "method": "Building: Alle Zutaten in die Teekanne geben, Eis hinzufügen, umrühren und am Tisch servieren.",
+      "preparation": "Cane sugar syrup: 1 kg Rohrzucker + 750 ml Wasser. Endvolumen ist nicht angegeben.",
+      "issues": [
+        "Zitrus-Widerspruch: Rezeptblatt nennt 20 ml lemon juice, Serviceblatt 2 cl lime juice. Beides ist außerhalb des 60-ml-Batches.",
+        "Aus 1 kg Zucker und 750 ml Wasser lässt sich das fertige Sirupvolumen nicht durch Addition ableiten."
+      ],
+      "sourcePages": [
+        "recipe-2",
+        "service-2"
+      ],
+      "servingTotalMl": 140
+    }
+  ]
+}

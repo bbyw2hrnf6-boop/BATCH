@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import { readPhotoBody, isJpeg, photoKey, PHOTO_ID, MAX_PHOTO_BYTES } from '../lib/photo-format.ts';
+const id = 'e31f24bb-23e8-4f33-a167-c343a19f6585';
+assert(PHOTO_ID.test(id));
+assert.notEqual(photoKey('alice', id), photoKey('bob', id));
+assert(photoKey('alice/bob', id).includes('alice%2Fbob/'));
+assert.throws(() => photoKey('alice', '../bob/private.jpg'));
+assert.throws(() => photoKey('', id));
+assert(!isJpeg(new TextEncoder().encode('<svg onload="alert(1)"></svg>')));
+assert(!isJpeg(new Uint8Array([0xff, 0xd8, 0xff, 0])));
+const bytes = new Uint8Array([0xff, 0xd8, 0xff, 0xe0, 0x01, 0xff, 0xd9]);
+assert(isJpeg(bytes));
+assert.deepEqual(await readPhotoBody(new Request('https://app.test/photo', { method: 'POST', body: bytes })), bytes);
+await assert.rejects(readPhotoBody(new Request('https://app.test/photo', { method: 'POST', body: bytes, headers: { 'Content-Length': String(MAX_PHOTO_BYTES + 1) } })), /PHOTO_TOO_LARGE/);
+const stream = new ReadableStream({ start(controller) { controller.enqueue(new Uint8Array(MAX_PHOTO_BYTES)); controller.enqueue(new Uint8Array(1)); controller.close(); } });
+await assert.rejects(readPhotoBody(new Request('https://app.test/photo', { method: 'POST', duplex: 'half', body: stream })), /PHOTO_TOO_LARGE/);
+console.log('PASS: photo ownership namespaces, safe IDs, MIME signature rejection, bounded uploads with and without Content-Length.');

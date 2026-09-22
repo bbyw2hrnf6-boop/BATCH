@@ -1,0 +1,186 @@
+{
+  "steps": [
+    {
+      "id": "ingredients",
+      "title": {
+        "de": "Zutaten und Originalflaschen anlegen",
+        "en": "Set up ingredients and original bottles",
+        "nb": "Legg inn ingredienser og originalflasker"
+      },
+      "body": {
+        "de": "Lege jedes Produkt mit Namen, Marke und Originalflaschengröße an. BATCH nutzt diese Größe später für die Umrechnung. Führe verschiedene Marken als eigene Zutaten, damit ihre Bestände getrennt bleiben.",
+        "en": "Add each product with its name, brand and original bottle size. BATCH uses this size to calculate bottle equivalents. Create a separate ingredient for each brand to keep their stock totals separate.",
+        "nb": "Legg inn hvert produkt med navn, merke og størrelsen på originalflasken. BATCH bruker størrelsen til å regne om mengdene til flasker. Opprett en egen ingrediens for hvert merke, slik at beholdningene holdes adskilt."
+      },
+      "tip": {
+        "de": "Originalflaschengrößen fehlen auf den Rezeptfotos. Übernimm sie vom Etikett. Bei Infusionen bestätige zusätzlich den Umrechnungsfaktor zum Originalprodukt.",
+        "en": "Original bottle sizes are missing from the recipe photos. Copy them from the labels. For infusions, also confirm the conversion factor to the original product.",
+        "nb": "Størrelsene på originalflaskene mangler på oppskriftsbildene. Hent dem fra etikettene. For infusjoner må du også bekrefte omregningsfaktoren til originalproduktet."
+      },
+      "action": {
+        "de": "Zutaten einrichten",
+        "en": "Set up ingredients",
+        "nb": "Legg inn ingredienser"
+      },
+      "target": "ingredients"
+    },
+    {
+      "id": "recipes",
+      "title": {
+        "de": "Deine echte Mischung hinterlegen",
+        "en": "Enter your actual batch recipe",
+        "nb": "Pre-batcher: Legg inn dine egne oppskrifter"
+      },
+      "body": {
+        "de": "Die sieben Bar-Rezepte sind hinterlegt. Nur die roten Batch-Zutaten bestimmen das Verhältnis; auch Sirup gehört dazu. Saft, Soda und weitere Servierzugaben stehen separat im Originalrezept. Ändere bei Bedarf Mengen und Produkte direkt im Rezept.",
+        "en": "The seven bar recipes are ready. Only the red batch ingredients determine the proportions, including syrup. Juice, soda and other service additions are listed separately in the original recipe. Edit amounts and products directly in the recipe when needed.",
+        "nb": "De sju baroppskriftene er lagt inn. Bare de røde batch-ingrediensene bestemmer blandingsforholdet, også sirup. Juice, brus og andre tilsetninger ved servering står separat i originaloppskriften. Endre mengder og produkter direkte i oppskriften ved behov."
+      },
+      "tip": {
+        "de": "Wähle „Eigenes Produkt / Marke eingeben“, um etwa Bareksten Blueberry Liqueur einzutragen. Speichere danach das Rezept.",
+        "en": "Choose “Enter your own product / brand” to add a product such as Bareksten Blueberry Liqueur. Then save the recipe.",
+        "nb": "Velg «Skriv inn eget produkt / merke» for å legge inn for eksempel Bareksten Blueberry Liqueur. Lagre deretter oppskriften."
+      },
+      "action": {
+        "de": "Rezepte bearbeiten",
+        "en": "Edit recipes",
+        "nb": "Rediger pre-batcher"
+      },
+      "target": "recipes"
+    },
+    {
+      "id": "inventory",
+      "title": {
+        "de": "Jede Flasche zählen und speichern",
+        "en": "Count and save every bottle",
+        "nb": "Varetelling: Tell og lagre hver flaske"
+      },
+      "body": {
+        "de": "Prüfe die Batch-Flaschengröße und zähle die vollen Flaschen. Erfasse den Rest jeder angebrochenen Flasche einzeln in ml, cl oder l. Kennzeichne geschätzte Restmengen; entferne die Markierung bei gemessenen Mengen. Speichere jeden Pre-Batch, auch einen Bestand von null.",
+        "en": "Check the batch bottle size and count full bottles. Enter the remainder of each partial bottle separately in ml, cl or l. Mark estimated remainders; clear the estimate checkbox for measured amounts. Save each batch, including an explicit zero when none remains.",
+        "nb": "Kontroller flaskestørrelsen for blandingen og tell de fulle flaskene. Registrer resten i hver åpnede flaske separat i ml, cl eller l. Merk anslåtte restmengder; fjern avkrysningen for målte mengder. Lagre hver pre-batch, også null når det ikke er noe igjen."
+      },
+      "tip": {
+        "de": "Warte auf die Speicherbestätigung, bevor du zum nächsten Pre-Batch wechselst. 1 l = 100 cl = 1.000 ml.",
+        "en": "Wait for the save confirmation before moving to the next batch. 1 l = 100 cl = 1,000 ml.",
+        "nb": "Vent på bekreftelsen på lagring før du går videre til neste pre-batch. 1 l = 100 cl = 1 000 ml."
+      },
+      "action": {
+        "de": "Zur Inventur",
+        "en": "Start counting",
+        "nb": "Til varetelling"
+      },
+      "target": "inventory"
+    },
+    {
+      "id": "results",
+      "title": {
+        "de": "Ergebnis übernehmen",
+        "en": "Use your results",
+        "nb": "Bruk resultatet"
+      },
+      "body": {
+        "de": "BATCH summiert die Zutaten aus allen erfassten Batches. Flaschen und Rest in cl erscheinen, sobald die Originalflaschengröße und gegebenenfalls der Infusionsfaktor hinterlegt sind. Offene Werte stehen als — in der Liste. Kopiere das Ergebnis vor einer neuen Zählung.",
+        "en": "BATCH totals ingredients across all counted batches. Bottle equivalents and remaining cl appear once the original bottle size and, where relevant, infusion factor are set. Unresolved values appear as —. Copy the results before starting a new count.",
+        "nb": "BATCH summerer ingrediensene i alle registrerte batcher. Antall flasker og rest i cl vises når størrelsen på originalflasken og eventuell infusjonsfaktor er lagt inn. Uavklarte verdier vises som —. Kopier resultatet før du starter en ny telling."
+      },
+      "tip": {
+        "de": "Prüfe, ob alle Pre-Batches erfasst sind und der Zutatenfilter zur Liste passt, die du kopieren möchtest.",
+        "en": "Check that every batch has been counted and the ingredient filter matches the list you want to copy.",
+        "nb": "Kontroller at alle pre-batcher er telt, og at ingrediensfilteret viser det du vil kopiere."
+      },
+      "action": {
+        "de": "Ergebnis ansehen",
+        "en": "View results",
+        "nb": "Se resultatet"
+      },
+      "target": "results"
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "de": "Warum zählen Soda und Saft nicht mit?",
+        "en": "Why are soda and juice excluded?",
+        "nb": "Hvorfor tas ikke brus og juice med?"
+      },
+      "answer": {
+        "de": "Alicia hat bestätigt: Gezählt werden nur die roten Batch-Zutaten. Beim Servieren hinzugefügte Flüssigkeiten sind noch nicht in der gezählten Flasche. Sugar beim Blueberry Spritz und Rohrzuckersirup beim Top Tea gehören dagegen bereits zum Batch und bleiben im Nenner, auch wenn du nur Alkohol im Ergebnis anzeigst.",
+        "en": "Alicia confirmed that only the red batch ingredients count. Liquids added at service are not yet in the counted bottle. Sugar in Blueberry Spritz and cane sugar syrup in Top Tea are already part of the batch and stay in the denominator, even when the results filter shows only alcohol.",
+        "nb": "Alicia bekreftet at bare de røde batch-ingrediensene skal telles. Væsker som tilsettes ved servering, er ennå ikke i flasken som telles. Sugar i Blueberry Spritz og rørsukkersirup i Top Tea er derimot allerede en del av batchen og tas med i totalvolumet, selv når resultatfilteret bare viser alkohol."
+      }
+    },
+    {
+      "question": {
+        "de": "Wie werden Infusionen berechnet?",
+        "en": "How are infusions calculated?",
+        "nb": "Hvordan beregnes infusjoner?"
+      },
+      "answer": {
+        "de": "Die Rezeptanteile ergeben die Menge der fertigen Infusion. Ohne bestätigten Faktor wird kein Gegenwert an ursprünglicher Spirituose behauptet. Wenn ihr intern 1:1 rechnet, trage ausdrücklich 1 ein. Bei gemessener abweichender Ausbeute verwende euren vereinbarten Faktor.",
+        "en": "Recipe proportions give the quantity of finished infusion. Without a confirmed factor, no equivalent quantity of the original spirit is assumed. If your bar accounts for it 1:1, explicitly enter 1. If measured yield differs, use your bar’s agreed factor.",
+        "nb": "Blandingsforholdet gir mengden ferdig infusjon. Uten en bekreftet faktor beregnes ingen tilsvarende mengde av det opprinnelige brennevinet. Hvis baren regner 1:1, skriver du uttrykkelig inn 1. Ved målt avvikende utbytte bruker du barens avtalte faktor."
+      }
+    },
+    {
+      "question": {
+        "de": "Ist „nicht gezählt“ dasselbe wie null?",
+        "en": "Does “not counted” mean zero?",
+        "nb": "Betyr «ikke telt» null?"
+      },
+      "answer": {
+        "de": "Nein. „Nicht gezählt“ bedeutet, dass für diesen Pre-Batch noch keine Zählung gespeichert wurde. Ist nichts mehr vorhanden, speichere null volle Flaschen und null Restmenge. Erst dann ist der Pre-Batch als erfasst markiert.",
+        "en": "No. “Not counted” means no count has been saved for that batch. If none remains, save zero full bottles and zero remainder. Only then is the batch marked as counted.",
+        "nb": "Nei. «Ikke telt» betyr at ingen telling er lagret for denne pre-batchen. Hvis det ikke er noe igjen, lagrer du null fulle flasker og null restmengde. Først da blir den merket som telt."
+      }
+    },
+    {
+      "question": {
+        "de": "Was bedeutet die Flaschenanzahl im Ergebnis?",
+        "en": "What does the bottle count in the results mean?",
+        "nb": "Hva betyr antallet flasker i resultatet?"
+      },
+      "answer": {
+        "de": "Es ist der rechnerische Gegenwert der Zutaten in deinen gezählten Pre-Batches, bezogen auf ihre Originalflaschengröße. Addiere separat vorhandene Originalflaschen und deren Restmengen auf deiner Inventurliste. Die bereits in Pre-Batches enthaltenen Zutaten sind im Ergebnis enthalten; zähle sie dort nicht nochmals hinzu.",
+        "en": "It is the calculated equivalent of ingredients in your counted batches, using each ingredient’s original bottle size. Add separately held original bottles and their remainders to your inventory list. Ingredients already in the batches are included in the results; do not add them again.",
+        "nb": "Det er den beregnede mengden ingredienser i dine telte pre-batcher, omregnet etter størrelsen på originalflaskene. Legg til originalflasker og restmengder som står separat, på varetellingslisten. Ingrediensene som allerede er i blandingene, er med i resultatet og skal ikke telles en gang til."
+      }
+    },
+    {
+      "question": {
+        "de": "Was passiert mit der Zählung, wenn ich ein Rezept ändere?",
+        "en": "What happens to a count when I edit its recipe?",
+        "nb": "Hva skjer med tellingen når jeg endrer en oppskrift?"
+      },
+      "answer": {
+        "de": "Änderungen an Zutaten, Mengen oder Batch-Flaschengröße leeren die zugehörige Zählung. Erfasse diesen Pre-Batch danach erneut. Änderungen an Bild, Name oder Hinweis erhalten die Zählung. Andere Pre-Batches bleiben unverändert.",
+        "en": "Changing ingredients, quantities or batch bottle size clears its count. Count that batch again afterwards. Changing the photo, name or note preserves the count. Other batches remain unchanged.",
+        "nb": "Endringer i ingredienser, mengder eller batchflaskens størrelse tømmer den tilhørende tellingen. Tell denne batchen på nytt etterpå. Endring av bilde, navn eller merknad beholder tellingen. Andre batcher forblir uendret."
+      }
+    },
+    {
+      "question": {
+        "de": "Wie funktionieren Speichern, Internet und Sprache?",
+        "en": "How do saving, internet access and language work?",
+        "nb": "Hvordan fungerer lagring, internett og språk?"
+      },
+      "answer": {
+        "de": "Zutaten, Rezepte und Zählungen werden in deinem Konto gespeichert. Zum Laden und Speichern brauchst du eine Internetverbindung. Warte auf die Speicherbestätigung. Die Sprachwahl ändert nur die Anzeige: Mengen und selbst eingegebene Produktnamen bleiben erhalten.",
+        "en": "Ingredients, recipes and counts are saved to your account. You need an internet connection to load and save them. Wait for the save confirmation. Changing language only changes the display: quantities and product names you entered are preserved.",
+        "nb": "Ingredienser, oppskrifter og tellinger lagres på kontoen din. Du trenger internett for å laste inn og lagre dem. Vent på bekreftelsen på lagring. Språkvalget endrer bare visningen: Mengder og produktnavn du har lagt inn, beholdes."
+      }
+    },
+    {
+      "question": {
+        "de": "Wie füge ich ein eigenes Drink-Foto hinzu?",
+        "en": "How do I add my own drink photo?",
+        "nb": "Hvordan legger jeg til mitt eget drinkbilde?"
+      },
+      "answer": {
+        "de": "Öffne „Rezept bearbeiten“. Wähle ein Foto aus Mediathek oder Dateien oder öffne die Kamera am Handy. Warte, bis das Bild geladen ist, und speichere das Rezept. Ohne eigenes Foto erscheint automatisch ein animierter Drink. „Automatisches Bild verwenden“ entfernt dein Foto aus dem Rezept.",
+        "en": "Open “Edit recipe”. Choose a photo from your library or files, or open the camera on your phone. Wait until the photo has uploaded, then save the recipe. Without your own photo, an animated drink appears automatically. “Use automatic image” removes your photo from the recipe.",
+        "nb": "Åpne «Rediger oppskrift». Velg et bilde fra bildebiblioteket eller filer, eller åpne kameraet på mobilen. Vent til bildet er lastet opp, og lagre oppskriften. Uten eget bilde vises en animert drink automatisk. «Bruk automatisk bilde» fjerner bildet ditt fra oppskriften."
+      }
+    }
+  ]
+}

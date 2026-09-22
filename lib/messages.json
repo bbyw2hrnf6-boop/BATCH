@@ -1,0 +1,1354 @@
+{
+  "{count} von {total} Pre-Batches erfasst": {
+    "en": "Pre-batches counted: {count}/{total}",
+    "nb": "Registrerte pre-batcher: {count}/{total}"
+  },
+  "{count} von {total} Pre-Batches erfasst. Nur Zutaten in diesen Mischungen.": {
+    "en": "Pre-batches counted: {count}/{total}. Only ingredients in these mixtures are included.",
+    "nb": "Registrerte pre-batcher: {count}/{total}. Kun ingrediensene i disse blandingene er inkludert."
+  },
+  "{count} Pre-Batches fehlen noch. „Nicht gezählt“ bedeutet nicht „kein Bestand“.": {
+    "en": "{count} pre-batches still to count. “Not counted” does not mean “out of stock”.",
+    "nb": "{count} pre-batcher gjenstår. «Ikke telt» betyr ikke «tomt på lager»."
+  },
+  "{volume} Liter. Aufgeschlüsselt.": {
+    "en": "{volume} l. Broken down.",
+    "nb": "{volume} liter. Fordelt på ingredienser."
+  },
+  "{volume} Liter abgefüllte Mischung": {
+    "en": "{volume} l of bottled mixture",
+    "nb": "{volume} liter blanding på flaske"
+  },
+  "Rest in Flasche {index}": {
+    "en": "Amount left in bottle {index}",
+    "nb": "Restmengde i flaske {index}"
+  },
+  "Restflasche {index} entfernen": {
+    "en": "Remove partially filled bottle {index}",
+    "nb": "Fjern påbegynt flaske {index}"
+  },
+  "Zutat {index}": {
+    "en": "Ingredient {index}",
+    "nb": "Ingrediens {index}"
+  },
+  "Menge Zutat {index} in ml": {
+    "en": "Amount of ingredient {index} in ml",
+    "nb": "Mengde av ingrediens {index} i ml"
+  },
+  "Zutat {index} entfernen": {
+    "en": "Remove ingredient {index}",
+    "nb": "Fjern ingrediens {index}"
+  },
+  "{volume} ml Rezeptmenge · {bottle} ml Batch-Flasche": {
+    "en": "{volume} ml recipe volume · {bottle} ml batch bottle",
+    "nb": "{volume} ml oppskriftsmengde · {bottle} ml batchflaske"
+  },
+  "{bottles} Fl. + {rest} cl": {
+    "en": "{bottles} bottle eq. + {rest} cl",
+    "nb": "{bottles} flaskeekv. + {rest} cl"
+  },
+  "Guide": {
+    "en": "Guide",
+    "nb": "Veiledning"
+  },
+  "Sprache": {
+    "en": "Language",
+    "nb": "Språk"
+  },
+  "Dein Bar-Assistent": {
+    "en": "Your bar assistant",
+    "nb": "Barassistenten din"
+  },
+  "Eine gute Inventur beginnt mit einem klaren Überblick.": {
+    "en": "A good inventory starts with a clear overview.",
+    "nb": "En god varetelling starter med en tydelig oversikt."
+  },
+  "Zählen. Speichern. Fertig.": {
+    "en": "Count. Save. Done.",
+    "nb": "Tell. Lagre. Ferdig."
+  },
+  "Erfasste Pre-Batches": {
+    "en": "Recorded pre-batches",
+    "nb": "Registrerte pre-batcher"
+  },
+  "Gesamtvolumen": {
+    "en": "Total volume",
+    "nb": "Totalt volum"
+  },
+  "Noch offen": {
+    "en": "Still to count",
+    "nb": "Gjenstår å telle"
+  },
+  "So funktioniert’s": {
+    "en": "How it works",
+    "nb": "Slik fungerer det"
+  },
+  "Guide öffnen": {
+    "en": "Open guide",
+    "nb": "Åpne veiledningen"
+  },
+  "Pre-Batch auswählen": {
+    "en": "Choose a pre-batch",
+    "nb": "Velg en pre-batch"
+  },
+  "In der Mischung": {
+    "en": "In the mixture",
+    "nb": "I blandingen"
+  },
+  "Rezeptanteil": {
+    "en": "Recipe share",
+    "nb": "Andel i oppskriften"
+  },
+  "Flaschen-Gegenwert": {
+    "en": "Bottle equivalents",
+    "nb": "Flaskeekvivalenter"
+  },
+  "Gesamt": {
+    "en": "Total",
+    "nb": "Totalt"
+  },
+  "Gespeichert um {time}": {
+    "en": "Saved at {time}",
+    "nb": "Lagret kl. {time}"
+  },
+  "Zum letzten Schritt": {
+    "en": "Go to the final step",
+    "nb": "Gå til siste trinn"
+  },
+  "Nur Anzeige · keine Bestandsänderung": {
+    "en": "Display only · stock is unchanged",
+    "nb": "Kun visning · beholdningen endres ikke"
+  },
+  "Beispielrechnung": {
+    "en": "Example calculation",
+    "nb": "Regneeksempel"
+  },
+  "Demo zurücksetzen": {
+    "en": "Reset demo",
+    "nb": "Tilbakestill demoen"
+  },
+  "Nächster Schritt": {
+    "en": "Next step",
+    "nb": "Neste trinn"
+  },
+  "Vorheriger Schritt": {
+    "en": "Previous step",
+    "nb": "Forrige trinn"
+  },
+  "Häufige Fragen": {
+    "en": "Frequently asked questions",
+    "nb": "Vanlige spørsmål"
+  },
+  "In vier Schritten zur Inventur": {
+    "en": "Your inventory in four steps",
+    "nb": "Varetelling i fire trinn"
+  },
+  "Schritt {step} von {total}": {
+    "en": "Step {step} of {total}",
+    "nb": "Trinn {step} av {total}"
+  },
+  "Nicht mehr anzeigen": {
+    "en": "Do not show again",
+    "nb": "Ikke vis igjen"
+  },
+  "Laden fehlgeschlagen.": {
+    "en": "Could not load.",
+    "nb": "Kunne ikke laste inn."
+  },
+  "Deine Inventur konnte nicht geladen werden.": {
+    "en": "Your inventory could not be loaded.",
+    "nb": "Varetellingen din kunne ikke lastes inn."
+  },
+  "Bitte deine Eingaben prüfen.": {
+    "en": "Please check your entries.",
+    "nb": "Kontroller opplysningene du har lagt inn."
+  },
+  "Speichern fehlgeschlagen.": {
+    "en": "Could not save.",
+    "nb": "Kunne ikke lagre."
+  },
+  "Speichern fehlgeschlagen. Deine Eingaben bleiben erhalten.": {
+    "en": "Could not save. Your entries are still here.",
+    "nb": "Kunne ikke lagre. Opplysningene du har lagt inn, er fortsatt her."
+  },
+  "Pre-Batch-Inventur lesen": {
+    "en": "Read pre-batch inventory",
+    "nb": "Les varetelling for pre-batcher"
+  },
+  "Liest Rezepte, erfasste Mengen und nach Zutaten summierte Ergebnisse.": {
+    "en": "Reads recipes, recorded quantities and totals by ingredient.",
+    "nb": "Leser oppskrifter, registrerte mengder og summer per ingrediens."
+  },
+  "Pre-Batch-Bestand speichern": {
+    "en": "Save pre-batch stock count",
+    "nb": "Lagre beholdning for en pre-batch"
+  },
+  "Speichert den Bestand eines bekannten Pre-Batches und aktualisiert die sichtbare Inventur. Überschreibt dessen bisherige Zählung.": {
+    "en": "Saves the stock count for an existing pre-batch and updates the inventory on screen. Replaces its previous count.",
+    "nb": "Lagrer beholdningen for en eksisterende pre-batch og oppdaterer varetellingen på skjermen. Erstatter den forrige tellingen for denne pre-batchen."
+  },
+  "Ungültige Eingabe": {
+    "en": "Invalid entry",
+    "nb": "Ugyldig opplysning"
+  },
+  "Unbekannter Pre-Batch": {
+    "en": "Unknown pre-batch",
+    "nb": "Ukjent pre-batch"
+  },
+  "Bestand wurde nicht gespeichert": {
+    "en": "Stock count was not saved",
+    "nb": "Beholdningen ble ikke lagret"
+  },
+  "BATCH · Zutaten in erfassten Pre-Batches": {
+    "en": "BATCH · Ingredients in recorded pre-batches",
+    "nb": "BATCH · Ingredienser i registrerte pre-batcher"
+  },
+  "ACHTUNG: Enthält Demo-Rezepte.": {
+    "en": "CAUTION: Includes demo recipes.",
+    "nb": "OBS: Inneholder demooppskrifter."
+  },
+  "Produkt | Originalflasche | Flaschen | Rest cl | Gesamt cl": {
+    "en": "Product | Original bottle | Bottle equivalents | Remainder cl | Total cl",
+    "nb": "Produkt | Originalflaske | Flaskeekvivalenter | Restmengde cl | Totalt cl"
+  },
+  "ca. ": {
+    "en": "approx. ",
+    "nb": "ca. "
+  },
+  "ca.": {
+    "en": "approx.",
+    "nb": "ca."
+  },
+  "Nur Pre-Batches. Separat vorhandene Originalflaschen sind nicht enthalten. Werte gerundet auf 0,01 cl.": {
+    "en": "Pre-batches only. Separate stock in original bottles is not included. Values are rounded to 0.01 cl.",
+    "nb": "Kun pre-batcher. Separat beholdning i originalflasker er ikke inkludert. Verdiene er avrundet til 0,01 cl."
+  },
+  "Inventurliste kopiert.": {
+    "en": "Inventory list copied.",
+    "nb": "Varetellingslisten er kopiert."
+  },
+  "BATCH Startseite": {
+    "en": "BATCH home",
+    "nb": "BATCH startside"
+  },
+  "BAR INVENTUR": {
+    "en": "BAR INVENTORY",
+    "nb": "VARETELLING FOR BAREN"
+  },
+  "Speichert …": {
+    "en": "Saving …",
+    "nb": "Lagrer …"
+  },
+  "Lädt …": {
+    "en": "Loading …",
+    "nb": "Laster inn …"
+  },
+  "Gespeichert": {
+    "en": "Saved",
+    "nb": "Lagret"
+  },
+  "Bereit zum Zählen": {
+    "en": "Ready to count",
+    "nb": "Klar til å telle"
+  },
+  "DEIN BESTAND IM BLICK": {
+    "en": "YOUR STOCK AT A GLANCE",
+    "nb": "OVERSIKT OVER BEHOLDNINGEN"
+  },
+  "Inventur.": {
+    "en": "Inventory.",
+    "nb": "Varetelling."
+  },
+  "Deine Rezepte.": {
+    "en": "Your recipes.",
+    "nb": "Oppskriftene dine."
+  },
+  "Alles aufgelöst.": {
+    "en": "Every ingredient counted.",
+    "nb": "Alt fordelt på ingredienser."
+  },
+  "App-Bereiche": {
+    "en": "App sections",
+    "nb": "Appens hovedområder"
+  },
+  "Inventur": {
+    "en": "Inventory",
+    "nb": "Varetelling"
+  },
+  "Rezepte": {
+    "en": "Recipes",
+    "nb": "Oppskrifter"
+  },
+  "Ergebnis": {
+    "en": "Results",
+    "nb": "Resultat"
+  },
+  "DEMO-REZEPTE": {
+    "en": "DEMO RECIPES",
+    "nb": "DEMOOPPSKRIFTER"
+  },
+  "Zum Ausprobieren. Für die echte Inventur die Bar-Rezepte einsetzen.": {
+    "en": "For trying things out. Use your bar’s recipes for an actual inventory count.",
+    "nb": "Til utprøving. Bruk barens egne oppskrifter til den faktiske varetellingen."
+  },
+  "Demo-Rezepte bearbeiten": {
+    "en": "Edit demo recipes",
+    "nb": "Rediger demooppskrifter"
+  },
+  "Mit ChatGPT anmelden": {
+    "en": "Sign in with ChatGPT",
+    "nb": "Logg inn med ChatGPT"
+  },
+  "Serverstand laden (offene Eingaben verwerfen)": {
+    "en": "Load saved version (discard unsaved entries)",
+    "nb": "Last inn lagret versjon (forkast ulagrede opplysninger)"
+  },
+  "Erneut laden": {
+    "en": "Reload",
+    "nb": "Last inn på nytt"
+  },
+  "Pre-Batches": {
+    "en": "Pre-batches",
+    "nb": "Pre-batcher"
+  },
+  "erfasst": {
+    "en": "counted",
+    "nb": "registrert"
+  },
+  "Erfasst": {
+    "en": "Recorded",
+    "nb": "Registrert"
+  },
+  "von": {
+    "en": "of",
+    "nb": "av"
+  },
+  "Pre-Batches erfasst": {
+    "en": "pre-batches recorded",
+    "nb": "pre-batcher registrert"
+  },
+  " · Rest geschätzt": {
+    "en": " · Remainder estimated",
+    "nb": " · Restmengde anslått"
+  },
+  "· Rest geschätzt": {
+    "en": "· Remainder estimated",
+    "nb": "· Restmengde anslått"
+  },
+  "Rest geschätzt": {
+    "en": "Remainder estimated",
+    "nb": "Restmengde anslått"
+  },
+  "Noch nicht gezählt": {
+    "en": "Not counted yet",
+    "nb": "Ikke telt ennå"
+  },
+  "Erfasster Pre-Batch": {
+    "en": "Recorded pre-batch volume",
+    "nb": "Registrert mengde pre-batch"
+  },
+  "Liter": {
+    "en": "l",
+    "nb": "Liter"
+  },
+  "Ergebnis ansehen": {
+    "en": "View results",
+    "nb": "Se resultatet"
+  },
+  "Mischverhältnisse": {
+    "en": "Recipe ratios",
+    "nb": "Blandingsforhold"
+  },
+  "Alle flüssigen Zutaten, die in der abgefüllten Mischung stecken.": {
+    "en": "All liquid ingredients in the bottled mixture.",
+    "nb": "Alle flytende ingredienser i blandingen på flasken."
+  },
+  "Zutaten & Flaschen": {
+    "en": "Ingredients & bottles",
+    "nb": "Ingredienser og flasker"
+  },
+  "Rezept": {
+    "en": "Recipe",
+    "nb": "Oppskrift"
+  },
+  "Demo-Rezept": {
+    "en": "Demo recipe",
+    "nb": "Demooppskrift"
+  },
+  "Eigenes Rezept": {
+    "en": "Your recipe",
+    "nb": "Egen oppskrift"
+  },
+  "ml Rezeptmenge ·": {
+    "en": "ml recipe volume ·",
+    "nb": "ml oppskriftsmengde ·"
+  },
+  "ml Batch-Flasche": {
+    "en": "ml batch bottle",
+    "nb": "ml batchflaske"
+  },
+  "Rezept bearbeiten": {
+    "en": "Edit recipe",
+    "nb": "Rediger oppskrift"
+  },
+  "Mengen dürfen eine Portion oder einen ganzen Ansatz beschreiben. Das Verhältnis zählt. Eis, Soda und Garnitur nur berücksichtigen, wenn sie bereits in der Flasche sind. Demo-Werte bilden Infusionsverluste und zusätzliches Wasser nicht ab.": {
+    "en": "Quantities can describe one serving or a whole batch. The ratio is what matters. Include ice, soda and garnish only if they are already in the bottle. Demo values do not account for infusion losses or added water.",
+    "nb": "Mengdene kan gjelde én porsjon eller en hel batch. Det er forholdet som teller. Ta bare med is, sodavann og garnityr hvis det allerede er i flasken. Demoverdiene tar ikke hensyn til svinn ved infusjon eller tilsatt vann."
+  },
+  "FÜR DEINE INVENTURLISTE": {
+    "en": "FOR YOUR INVENTORY LIST",
+    "nb": "TIL VARETELLINGSLISTEN"
+  },
+  "Dein Ergebnis wartet.": {
+    "en": "Your results are waiting.",
+    "nb": "Resultatet ditt venter."
+  },
+  "Liter. Aufgeschlüsselt.": {
+    "en": "litres. Broken down.",
+    "nb": "liter. Fordelt på ingredienser."
+  },
+  "Pre-Batches erfasst. Nur Zutaten in diesen Mischungen.": {
+    "en": "pre-batches recorded. Only ingredients in these mixtures are included.",
+    "nb": "pre-batcher registrert. Kun ingrediensene i disse blandingene er inkludert."
+  },
+  "Liste kopieren": {
+    "en": "Copy list",
+    "nb": "Kopier listen"
+  },
+  "Pre-Batches fehlen noch. „Nicht gezählt“ bedeutet nicht „kein Bestand“.": {
+    "en": "pre-batches still to count. “Not counted” does not mean “out of stock”.",
+    "nb": "pre-batcher gjenstår. «Ikke telt» betyr ikke «tomt på lager»."
+  },
+  "Dieses Ergebnis enthält Demo-Rezepte und ist noch keine echte Bar-Inventur.": {
+    "en": "These results include demo recipes and are not yet an actual inventory of your bar.",
+    "nb": "Dette resultatet inneholder demooppskrifter og er ennå ikke en faktisk varetelling for baren."
+  },
+  "Nur alkoholische Zutaten anzeigen": {
+    "en": "Show alcoholic ingredients only",
+    "nb": "Vis bare alkoholholdige ingredienser"
+  },
+  "Produkt": {
+    "en": "Product",
+    "nb": "Produkt"
+  },
+  "Flaschen": {
+    "en": "Bottle equivalents",
+    "nb": "Flaskeekvivalenter"
+  },
+  "Rest cl": {
+    "en": "Remainder cl",
+    "nb": "Restmengde cl"
+  },
+  "Gesamt cl": {
+    "en": "Total cl",
+    "nb": "Totalt cl"
+  },
+  "Originalflasche": {
+    "en": "Original bottle",
+    "nb": "Originalflaske"
+  },
+  "Keine passenden Zutaten.": {
+    "en": "No matching ingredients.",
+    "nb": "Ingen ingredienser å vise."
+  },
+  "Zuerst die Flaschen zählen.": {
+    "en": "Count your bottles first.",
+    "nb": "Tell flaskene først."
+  },
+  "Blende alle Zutaten ein oder erfasse einen weiteren Pre-Batch.": {
+    "en": "Show all ingredients or record another pre-batch.",
+    "nb": "Vis alle ingredienser eller registrer en pre-batch til."
+  },
+  "Wähle einen Pre-Batch und gib volle Flaschen und Restmengen ein.": {
+    "en": "Choose a pre-batch and enter full bottles and partial amounts.",
+    "nb": "Velg en pre-batch og legg inn fulle flasker og restmengder."
+  },
+  "Zur Inventur": {
+    "en": "Go to inventory",
+    "nb": "Gå til varetelling"
+  },
+  "Die Flaschenanzahl ist ein rechnerischer Gegenwert. Separat vorhandene Originalflaschen kommen auf deiner Inventurliste zusätzlich dazu. Restmengen werden auf 0,01 cl gerundet; geschätzte Füllstände bleiben Schätzwerte.": {
+    "en": "Bottle counts are calculated equivalents. Add any separate stock in original bottles to your inventory list as well. Remainders are rounded to 0.01 cl; estimated fill levels remain estimates.",
+    "nb": "Antall flasker er en beregnet ekvivalent. Separat beholdning i originalflasker må legges til på varetellingslisten. Restmengder avrundes til 0,01 cl. Anslåtte fyllingsnivåer er fortsatt anslag."
+  },
+  "Neue Zählung": {
+    "en": "New count",
+    "nb": "Ny telling"
+  },
+  "Neue Zählung beginnen?": {
+    "en": "Start a new count?",
+    "nb": "Starte en ny telling?"
+  },
+  "Die aktuellen Zählwerte werden geleert. Deine Rezepte und Zutaten bleiben gespeichert. Kopiere das Ergebnis vorher, wenn du es behalten möchtest.": {
+    "en": "The current counts will be cleared. Your recipes and ingredients will stay saved. Copy the results first if you want to keep them.",
+    "nb": "De nåværende telleverdiene blir slettet. Oppskriftene og ingrediensene dine forblir lagret. Kopier resultatet først hvis du vil beholde det."
+  },
+  "Abbrechen": {
+    "en": "Cancel",
+    "nb": "Avbryt"
+  },
+  "Bereit für eine neue Zählung.": {
+    "en": "Ready for a new count.",
+    "nb": "Klar for en ny telling."
+  },
+  "Zählwerte leeren": {
+    "en": "Clear counts",
+    "nb": "Slett telleverdier"
+  },
+  "BATCH / BAR INVENTUR": {
+    "en": "BATCH / BAR INVENTORY",
+    "nb": "BATCH / VARETELLING FOR BAREN"
+  },
+  "1 Liter = 100 cl = 1.000 ml": {
+    "en": "1 litre = 100 cl = 1,000 ml",
+    "nb": "1 liter = 100 cl = 1 000 ml"
+  },
+  "Mengen und Zutaten der abgefüllten Mischung.": {
+    "en": "Quantities and ingredients in the bottled mixture.",
+    "nb": "Mengder og ingredienser i blandingen på flasken."
+  },
+  "Zutaten & Originalflaschen": {
+    "en": "Ingredients & original bottles",
+    "nb": "Ingredienser og originalflasker"
+  },
+  "Eine Zutat wird über alle Rezepte hinweg zusammengezählt. Unterschiedliche Marken als eigene Zutaten anlegen.": {
+    "en": "Each ingredient is totalled across all recipes. Add different brands as separate ingredients.",
+    "nb": "Hver ingrediens summeres på tvers av alle oppskrifter. Legg inn ulike merker som separate ingredienser."
+  },
+  "Alkoholisch": {
+    "en": "Alcoholic",
+    "nb": "Alkoholholdig"
+  },
+  "Weitere Zutat": {
+    "en": "Other ingredient",
+    "nb": "Annen ingrediens"
+  },
+  "Zutat hinzufügen": {
+    "en": "Add ingredient",
+    "nb": "Legg til ingrediens"
+  },
+  "Zutat bearbeiten": {
+    "en": "Edit ingredient",
+    "nb": "Rediger ingrediens"
+  },
+  "Die Originalflaschengröße bestimmt die Umrechnung für die Inventurliste.": {
+    "en": "The original bottle size determines the bottle equivalents on your inventory list.",
+    "nb": "Størrelsen på originalflasken bestemmer flaskeekvivalentene på varetellingslisten."
+  },
+  "Inventurliste kopieren": {
+    "en": "Copy inventory list",
+    "nb": "Kopier varetellingslisten"
+  },
+  "Dein Browser erlaubt kein automatisches Kopieren. Markiere diesen Text.": {
+    "en": "Your browser does not allow automatic copying. Select this text to copy it.",
+    "nb": "Nettleseren din tillater ikke automatisk kopiering. Marker teksten for å kopiere den."
+  },
+  "Inventurliste": {
+    "en": "Inventory list",
+    "nb": "Varetellingsliste"
+  },
+  "Alle Pre-Batches": {
+    "en": "All pre-batches",
+    "nb": "Alle pre-batcher"
+  },
+  "BESTAND ERFASSEN": {
+    "en": "RECORD STOCK",
+    "nb": "REGISTRER BEHOLDNING"
+  },
+  "Volle Flaschen als ganze Zahl angeben. Restmengen müssen zwischen 0 und der Flaschengröße liegen.": {
+    "en": "Enter full bottles as a whole number. Partial amounts must be between 0 and the bottle size.",
+    "nb": "Oppgi antall fulle flasker som et heltall. Restmengdene må være mellom 0 og flaskestørrelsen."
+  },
+  "Bestand gespeichert.": {
+    "en": "Stock count saved.",
+    "nb": "Beholdningen er lagret."
+  },
+  "Größe der Batch-Flasche": {
+    "en": "Batch bottle size",
+    "nb": "Størrelse på batchflasken"
+  },
+  "Volle Flaschen": {
+    "en": "Full bottles",
+    "nb": "Fulle flasker"
+  },
+  "Eine volle Flasche weniger": {
+    "en": "Remove one full bottle",
+    "nb": "Én full flaske mindre"
+  },
+  "Eine volle Flasche mehr": {
+    "en": "Add one full bottle",
+    "nb": "Én full flaske mer"
+  },
+  "Angebrochene Flaschen": {
+    "en": "Partially filled bottles",
+    "nb": "Påbegynte flasker"
+  },
+  "Einheit der Restmengen": {
+    "en": "Unit for partial amounts",
+    "nb": "Enhet for restmengder"
+  },
+  "Rest in Flasche": {
+    "en": "Amount left in bottle",
+    "nb": "Restmengde i flaske"
+  },
+  "Restflasche": {
+    "en": "Partially filled bottle",
+    "nb": "Påbegynt flaske"
+  },
+  "entfernen": {
+    "en": "remove",
+    "nb": "fjern"
+  },
+  "Weitere angebrochene Flasche": {
+    "en": "Add partially filled bottle",
+    "nb": "Legg til en påbegynt flaske"
+  },
+  "Restmengen sind geschätzt": {
+    "en": "Partial amounts are estimates",
+    "nb": "Restmengdene er anslått"
+  },
+  "BEISPIELBESTAND": {
+    "en": "EXAMPLE STOCK",
+    "nb": "EKSEMPELBEHOLDNING"
+  },
+  "PRE-BATCH GESAMT": {
+    "en": "TOTAL PRE-BATCH VOLUME",
+    "nb": "TOTAL MENGDE PRE-BATCH"
+  },
+  "Liter abgefüllte Mischung": {
+    "en": "litres of bottled mixture",
+    "nb": "liter blanding på flaske"
+  },
+  "Bitte die Mengen prüfen.": {
+    "en": "Please check the quantities.",
+    "nb": "Kontroller mengdene."
+  },
+  "Fl.": {
+    "en": "bottle eq.",
+    "nb": "flaskeekv."
+  },
+  "Fl. +": {
+    "en": "bottle eq. +",
+    "nb": "flaskeekv. +"
+  },
+  "Bestand aktualisieren": {
+    "en": "Update count",
+    "nb": "Oppdater beholdningen"
+  },
+  "Bestand übernehmen": {
+    "en": "Save count",
+    "nb": "Lagre beholdningen"
+  },
+  "Beispiel ausprobieren: 4 Flaschen + 250 ml": {
+    "en": "Try an example: 4 bottles + 250 ml",
+    "nb": "Prøv et eksempel: 4 flasker + 250 ml"
+  },
+  "Name, positive Mengen und eine gültige Flaschengröße angeben. Jede Zutat nur einmal verwenden.": {
+    "en": "Enter a name, positive quantities and a valid bottle size. Use each ingredient only once.",
+    "nb": "Oppgi et navn, positive mengder og en gyldig flaskestørrelse. Bruk hver ingrediens bare én gang."
+  },
+  "Rezept gespeichert. Bestand bitte neu erfassen.": {
+    "en": "Recipe saved. Please count this pre-batch again.",
+    "nb": "Oppskriften er lagret. Tell denne pre-batchen på nytt."
+  },
+  "Rezept gespeichert.": {
+    "en": "Recipe saved.",
+    "nb": "Oppskriften er lagret."
+  },
+  "Name des Pre-Batches": {
+    "en": "Pre-batch name",
+    "nb": "Navn på pre-batchen"
+  },
+  "Zutaten pro Rezeptmenge": {
+    "en": "Ingredients per recipe",
+    "nb": "Ingredienser per oppskriftsmengde"
+  },
+  "Zutat": {
+    "en": "Ingredient",
+    "nb": "Ingrediens"
+  },
+  "Menge Zutat": {
+    "en": "Amount of ingredient",
+    "nb": "Mengde av ingrediens"
+  },
+  "in ml": {
+    "en": "in ml",
+    "nb": "i ml"
+  },
+  "Neue Produkte zuerst unter „Zutaten & Flaschen“ anlegen.": {
+    "en": "Add new products under “Ingredients & bottles” first.",
+    "nb": "Legg først inn nye produkter under «Ingredienser og flasker»."
+  },
+  "Hinweis zum Rezept": {
+    "en": "Recipe note",
+    "nb": "Merknad til oppskriften"
+  },
+  "Als Demo-Rezept kennzeichnen": {
+    "en": "Mark as a demo recipe",
+    "nb": "Merk som demooppskrift"
+  },
+  "Rezept-Inspiration bei der IBA ↗": {
+    "en": "Recipe inspiration from the IBA ↗",
+    "nb": "Oppskriftsinspirasjon fra IBA ↗"
+  },
+  "Beim Speichern wird die Zählung dieses Pre-Batches geleert. Bitte anschließend mit dem passenden Rezept neu erfassen.": {
+    "en": "Saving will clear the count for this pre-batch. Count it again afterwards using the updated recipe.",
+    "nb": "Når du lagrer, slettes tellingen for denne pre-batchen. Tell den på nytt etterpå med den oppdaterte oppskriften."
+  },
+  "Rezept speichern": {
+    "en": "Save recipe",
+    "nb": "Lagre oppskrift"
+  },
+  "Bitte einen Namen und eine positive Flaschengröße in ganzen ml angeben.": {
+    "en": "Enter a name and a positive bottle size in whole ml.",
+    "nb": "Oppgi et navn og en positiv flaskestørrelse i hele ml."
+  },
+  "Zutat gespeichert.": {
+    "en": "Ingredient saved.",
+    "nb": "Ingrediensen er lagret."
+  },
+  "Produktname inklusive Marke": {
+    "en": "Product name including brand",
+    "nb": "Produktnavn med merke"
+  },
+  "z. B. Tequila · Marke XY": {
+    "en": "e.g. Tequila · Brand XY",
+    "nb": "f.eks. Tequila · Merke XY"
+  },
+  "Größe der Originalflasche": {
+    "en": "Original bottle size",
+    "nb": "Størrelse på originalflasken"
+  },
+  "Alkoholische Zutat": {
+    "en": "Alcoholic ingredient",
+    "nb": "Alkoholholdig ingrediens"
+  },
+  "Gilt für alle Rezepte mit dieser Zutat. Eine andere Marke als neue Zutat anlegen. Beispiel: 0,7 l = 700 ml.": {
+    "en": "Applies to every recipe using this ingredient. Add a different brand as a new ingredient. Example: 0.7 l = 700 ml.",
+    "nb": "Gjelder alle oppskrifter med denne ingrediensen. Legg inn et annet merke som en ny ingrediens. Eksempel: 0,7 l = 700 ml."
+  },
+  "Zutat speichern": {
+    "en": "Save ingredient",
+    "nb": "Lagre ingrediens"
+  },
+  "Tequila": {
+    "en": "Tequila",
+    "nb": "Tequila"
+  },
+  "Weißer Rum": {
+    "en": "White rum",
+    "nb": "Hvit rom"
+  },
+  "Kokoslikör": {
+    "en": "Coconut liqueur",
+    "nb": "Kokoslikør"
+  },
+  "Vodka": {
+    "en": "Vodka",
+    "nb": "Vodka"
+  },
+  "Gin": {
+    "en": "Gin",
+    "nb": "Gin"
+  },
+  "Campari": {
+    "en": "Campari",
+    "nb": "Campari"
+  },
+  "Roter Wermut": {
+    "en": "Red vermouth",
+    "nb": "Rød vermut"
+  },
+  "Grapefruitsaft": {
+    "en": "Grapefruit juice",
+    "nb": "Grapefruktjuice"
+  },
+  "Limettensaft": {
+    "en": "Lime juice",
+    "nb": "Limejuice"
+  },
+  "Agavensirup": {
+    "en": "Agave syrup",
+    "nb": "Agavesirup"
+  },
+  "Ananassaft": {
+    "en": "Pineapple juice",
+    "nb": "Ananasjuice"
+  },
+  "Kokoscreme": {
+    "en": "Coconut cream",
+    "nb": "Kokoskrem"
+  },
+  "Apfelsaft": {
+    "en": "Apple juice",
+    "nb": "Eplejuice"
+  },
+  "Zitronensaft": {
+    "en": "Lemon juice",
+    "nb": "Sitronjuice"
+  },
+  "Zuckersirup": {
+    "en": "Sugar syrup",
+    "nb": "Sukkerlake"
+  },
+  "Tequila · Grapefruit · Limette": {
+    "en": "Tequila · Grapefruit · Lime",
+    "nb": "Tequila · Grapefrukt · Lime"
+  },
+  "Rum · Kokos · Ananas": {
+    "en": "Rum · Coconut · Pineapple",
+    "nb": "Rom · Kokos · Ananas"
+  },
+  "Rum · Kokoscreme · Ananas": {
+    "en": "Rum · Coconut cream · Pineapple",
+    "nb": "Rom · Kokoskrem · Ananas"
+  },
+  "Vodka · Apfel · Zitrone": {
+    "en": "Vodka · Apple · Lemon",
+    "nb": "Vodka · Eple · Sitron"
+  },
+  "Gin · Campari · Wermut": {
+    "en": "Gin · Campari · Vermouth",
+    "nb": "Gin · Campari · Vermut"
+  },
+  "Frei gewähltes Demo-Rezept, inspiriert von der Paloma. Chili-Tequila wird ohne Infusionsverlust als Tequila gerechnet. Soda, Eis und Garnitur kommen erst beim Servieren dazu.": {
+    "en": "An illustrative demo recipe inspired by the Paloma. Chili tequila is counted as tequila without allowing for infusion losses. Soda, ice and garnish are added only when serving.",
+    "nb": "En fritt valgt demooppskrift inspirert av Paloma. Chili-tequila regnes som tequila uten fratrekk for svinn ved infusjon. Sodavann, is og garnityr tilsettes først ved servering."
+  },
+  "Frei gewähltes Demo-Rezept. Zutaten und Flaschengrößen vor der echten Inventur ersetzen.": {
+    "en": "An illustrative demo recipe. Replace ingredients and bottle sizes before an actual inventory count.",
+    "nb": "En fritt valgt demooppskrift. Bytt ut ingredienser og flaskestørrelser før den faktiske varetellingen."
+  },
+  "Demo auf Basis des IBA-Verhältnisses für Piña Colada (50:30:50), ohne Eis. Der Name ist ein Platzhalter; das echte Bar-Rezept kann abweichen.": {
+    "en": "A demo based on the IBA ratio for Piña Colada (50:30:50), without ice. The name is a placeholder; your bar’s actual recipe may differ.",
+    "nb": "En demo basert på IBAs blandingsforhold for Piña Colada (50:30:50), uten is. Navnet er en plassholder. Barens faktiske oppskrift kan være annerledes."
+  },
+  "Frei gewähltes Demo-Rezept. Soda wird erst beim Servieren ergänzt und gehört nicht zur abgefüllten Mischung.": {
+    "en": "An illustrative demo recipe. Soda is added only when serving and is not part of the bottled mixture.",
+    "nb": "En fritt valgt demooppskrift. Sodavann tilsettes først ved servering og er ikke en del av blandingen på flasken."
+  },
+  "Demo mit dem IBA-Verhältnis 1:1:1. Ohne Eis und vorab zugesetztes Wasser. Originalflaschengrößen sind Beispielwerte.": {
+    "en": "A demo using the IBA ratio of 1:1:1. Excludes ice and any water added in advance. Original bottle sizes are examples.",
+    "nb": "En demo med IBAs blandingsforhold 1:1:1. Uten is og vann tilsatt på forhånd. Størrelsene på originalflaskene er eksempler."
+  },
+  "Ungültige Menge": {
+    "en": "Invalid quantity",
+    "nb": "Ugyldig mengde"
+  },
+  "Doppelte ID": {
+    "en": "Duplicate ID",
+    "nb": "Duplisert ID"
+  },
+  "Unbekannte Zutat": {
+    "en": "Unknown ingredient",
+    "nb": "Ukjent ingrediens"
+  },
+  "Eine Zutat steht doppelt im Rezept": {
+    "en": "An ingredient appears twice in the recipe",
+    "nb": "En ingrediens står to ganger i oppskriften"
+  },
+  "Unbekanntes Rezept": {
+    "en": "Unknown recipe",
+    "nb": "Ukjent oppskrift"
+  },
+  "Restmenge größer als Flasche": {
+    "en": "Partial amount exceeds the bottle size",
+    "nb": "Restmengden er større enn flaskestørrelsen"
+  },
+  "Bitte anmelden, um deine Inventur zu laden.": {
+    "en": "Sign in to load your inventory.",
+    "nb": "Logg inn for å laste inn varetellingen din."
+  },
+  "Deine Inventur konnte nicht geladen werden. Bitte erneut versuchen.": {
+    "en": "Your inventory could not be loaded. Please try again.",
+    "nb": "Varetellingen din kunne ikke lastes inn. Prøv igjen."
+  },
+  "Bitte erneut anmelden. Deine Eingaben bleiben hier erhalten.": {
+    "en": "Please sign in again. Your entries will stay here.",
+    "nb": "Logg inn på nytt. Opplysningene du har lagt inn, blir værende her."
+  },
+  "Ungültiger Ursprung.": {
+    "en": "Invalid request origin.",
+    "nb": "Ugyldig opphav for forespørselen."
+  },
+  "JSON erwartet.": {
+    "en": "JSON expected.",
+    "nb": "Forventet JSON."
+  },
+  "Zu viele Daten.": {
+    "en": "Too much data.",
+    "nb": "For mye data."
+  },
+  "Bitte Mengen, Flaschengrößen und Zutaten prüfen.": {
+    "en": "Please check quantities, bottle sizes and ingredients.",
+    "nb": "Kontroller mengder, flaskestørrelser og ingredienser."
+  },
+  "Diese Inventur wurde auf einem anderen Gerät geändert. Lade den aktuellen Stand, bevor du erneut speicherst.": {
+    "en": "This inventory was changed on another device. Load the latest version before saving again.",
+    "nb": "Denne varetellingen er endret på en annen enhet. Last inn den nyeste versjonen før du lagrer på nytt."
+  },
+  "Speichern gerade nicht möglich. Deine Eingaben bleiben erhalten. Bitte erneut versuchen.": {
+    "en": "Saving is unavailable right now. Your entries are still here. Please try again.",
+    "nb": "Lagring er ikke mulig akkurat nå. Opplysningene du har lagt inn, er fortsatt her. Prøv igjen."
+  },
+  "Bar-Inventur": {
+    "en": "Bar inventory",
+    "nb": "Varetelling for bar"
+  },
+  "Vom ersten Rezept bis zur fertigen Liste. Alles, was du für deine nächste Zählung brauchst.": {
+    "en": "From your first recipe to a finished list. Everything you need for your next stocktake.",
+    "nb": "Fra den første oppskriften til en ferdig liste. Alt du trenger til neste varetelling."
+  },
+  "Anleitungsschritte": {
+    "en": "Guide steps",
+    "nb": "Trinn i veiledningen"
+  },
+  "Probier die Rechnung aus.": {
+    "en": "Give the calculation a try.",
+    "nb": "Prøv ut beregningen."
+  },
+  "Diese Demo-Mischung enthält 50 % Tequila. Batch- und Originalflasche fassen jeweils 700 ml.": {
+    "en": "This demo mixture contains 50% tequila. Both the batch bottle and original bottle hold 700 ml.",
+    "nb": "Denne demoblandingen inneholder 50 % tequila. Både blandingsflasken og originalflasken rommer 700 ml."
+  },
+  "Restmenge": {
+    "en": "Remainder",
+    "nb": "Restmengde"
+  },
+  "Restmenge in ml": {
+    "en": "Remainder in ml",
+    "nb": "Restmengde i ml"
+  },
+  "Pre-Batch gesamt": {
+    "en": "Total pre-batch",
+    "nb": "Pre-batch totalt"
+  },
+  "Schließen": {
+    "en": "Close",
+    "nb": "Lukk"
+  },
+  "Gesamt: {volume} cl": {
+    "en": "Total: {volume} cl",
+    "nb": "Totalt: {volume} cl"
+  },
+  "Dein Fortschritt": {
+    "en": "Your progress",
+    "nb": "Din fremdrift"
+  },
+  "In der Mischung enthalten": {
+    "en": "In this mixture",
+    "nb": "Innhold i blandingen"
+  },
+  "Berechnung ansehen": {
+    "en": "View breakdown",
+    "nb": "Se beregningen"
+  },
+  "Noch zu zählen: {count}. „Nicht gezählt“ bedeutet nicht „kein Bestand“.": {
+    "en": "Still to count: {count}. “Not counted” does not mean “out of stock”.",
+    "nb": "Gjenstår å telle: {count}. «Ikke telt» betyr ikke «tomt på lager»."
+  },
+  "Zählen": {
+    "en": "Count",
+    "nb": "Telling"
+  },
+  "Ein Pre-Batch ist eine vorab gemischte Cocktailbasis in einer Flasche. BATCH rechnet sie für die Inventur wieder in ihre einzelnen Zutaten um.": {
+    "en": "A pre-batch is a cocktail base mixed in advance and stored in a bottle. BATCH breaks it back down into its ingredients for your stocktake.",
+    "nb": "En pre-batch er en cocktailbase som blandes på forhånd og oppbevares på flaske. BATCH regner blandingen om til de enkelte ingrediensene ved varetelling."
+  },
+  "Alles im Blick.": {
+    "en": "Everything in sight.",
+    "nb": "Full oversikt."
+  },
+  "Deine Pre-Batches": {
+    "en": "Your pre-batches",
+    "nb": "Dine pre-batcher"
+  },
+  "Getränk auswählen": {
+    "en": "Select a drink",
+    "nb": "Velg en drink"
+  },
+  "Vorheriger Drink": {
+    "en": "Previous drink",
+    "nb": "Forrige drink"
+  },
+  "Nächster Drink": {
+    "en": "Next drink",
+    "nb": "Neste drink"
+  },
+  "Serviervorschlag · gezählt wird die abgefüllte Mischung": {
+    "en": "Serving suggestion · count the bottled mixture",
+    "nb": "Serveringsforslag · tell blandingen på flaske"
+  },
+  "{volume} ml von {capacity} ml": {
+    "en": "{volume} ml of {capacity} ml",
+    "nb": "{volume} ml av {capacity} ml"
+  },
+  "Restflasche {index}": {
+    "en": "Open bottle {index}",
+    "nb": "Åpnet flaske {index}"
+  },
+  "Bestand speichern": {
+    "en": "Save count",
+    "nb": "Lagre beholdning"
+  },
+  "Sprache wählen": {
+    "en": "Choose your language",
+    "nb": "Velg språk"
+  },
+  "Du kannst die Sprache jederzeit oben in der App ändern.": {
+    "en": "You can change the language at the top of the app at any time.",
+    "nb": "Du kan når som helst endre språket øverst i appen."
+  },
+  "Bar-Rezept": {
+    "en": "Bar recipe",
+    "nb": "Baroppskrift"
+  },
+  "Eure Bar-Rezepte sind bereit.": {
+    "en": "Your bar recipes are ready.",
+    "nb": "Baroppskriftene er klare."
+  },
+  "Nur rote Batch-Zutaten zählen. Produktnamen und Flaschengrößen kannst du anpassen.": {
+    "en": "Only red batch ingredients count. You can edit product names and bottle sizes.",
+    "nb": "Bare røde batch-ingredienser telles. Du kan endre produktnavn og flaskestørrelser."
+  },
+  "Produkte einrichten": {
+    "en": "Set up products",
+    "nb": "Legg inn produkter"
+  },
+  "Rezeptdatei": {
+    "en": "Recipe file",
+    "nb": "Oppskriftsfil"
+  },
+  "Die roten Batch-Zutaten bestimmen das Mischverhältnis, auch Sirup. Servierzugaben gehören nicht hinein. Infusionen benötigen eine bestätigte Umrechnung zum Originalprodukt.": {
+    "en": "The red batch ingredients determine the proportions, including syrup. Service additions are excluded. Infusions need a confirmed conversion to the original product.",
+    "nb": "De røde batch-ingrediensene bestemmer blandingsforholdet, også sirup. Tilsetninger ved servering tas ikke med. Infusjoner trenger en bekreftet omregning til originalproduktet."
+  },
+  "Für einige Produkte fehlen Flaschengröße oder Infusionsfaktor. Die Menge im Batch ist berechnet; offene Gegenwerte sind mit — markiert.": {
+    "en": "Some products need a bottle size or infusion factor. Their quantity in the batch is calculated; unresolved equivalents are marked —.",
+    "nb": "Noen produkter mangler flaskestørrelse eller infusjonsfaktor. Mengden i batchen er beregnet; uavklarte omregninger er merket med —."
+  },
+  "Originalprodukt cl": {
+    "en": "Original product cl",
+    "nb": "Originalprodukt cl"
+  },
+  "Flaschengröße offen": {
+    "en": "Bottle size needed",
+    "nb": "Flaskestørrelse mangler"
+  },
+  "im Batch": {
+    "en": "in the batch",
+    "nb": "i batchen"
+  },
+  "Umrechnung offen": {
+    "en": "Conversion needed",
+    "nb": "Omregning mangler"
+  },
+  "Offen": {
+    "en": "Not set",
+    "nb": "Ikke angitt"
+  },
+  "Produkt | Im Batch cl | Originalprodukt cl | Originalflasche ml | Flaschen | Rest cl": {
+    "en": "Product | In batch cl | Original product cl | Original bottle ml | Bottles | Remaining cl",
+    "nb": "Produkt | I batchen cl | Originalprodukt cl | Originalflaske ml | Flasker | Rest cl"
+  },
+  "Nur die roten Batch-Zutaten eintragen. Über „Eigenes Produkt“ kannst du die genaue Marke direkt hier eingeben.": {
+    "en": "Enter only the red batch ingredients. Use “Own product” to enter the exact brand right here.",
+    "nb": "Legg bare inn de røde batch-ingrediensene. Bruk «Eget produkt» for å skrive inn det nøyaktige merket her."
+  },
+  "＋ Eigenes Produkt / Marke eingeben": {
+    "en": "＋ Enter your own product / brand",
+    "nb": "＋ Skriv inn eget produkt / merke"
+  },
+  "Eigenes Produkt für Zutat {index}": {
+    "en": "Your product for ingredient {index}",
+    "nb": "Eget produkt for ingrediens {index}"
+  },
+  "Produkt übernehmen": {
+    "en": "Use product",
+    "nb": "Bruk produkt"
+  },
+  "Wird zusammen mit dem Rezept gespeichert. Andere Marken bleiben getrennt.": {
+    "en": "Saved together with the recipe. Other brands stay separate.",
+    "nb": "Lagres sammen med oppskriften. Andre merker holdes adskilt."
+  },
+  "Bitte das neue Produkt zuerst übernehmen oder abbrechen.": {
+    "en": "Use or cancel the new product first.",
+    "nb": "Bruk eller avbryt det nye produktet først."
+  },
+  "Bitte Produktname, Flaschengröße und Infusionsfaktor prüfen.": {
+    "en": "Check the product name, bottle size and infusion factor.",
+    "nb": "Kontroller produktnavn, flaskestørrelse og infusjonsfaktor."
+  },
+  "Dieses Produkt ist bereits vorhanden. Bitte aus der Liste auswählen.": {
+    "en": "This product already exists. Please select it from the list.",
+    "nb": "Dette produktet finnes allerede. Velg det fra listen."
+  },
+  "z. B. Bareksten Blueberry Liqueur": {
+    "en": "e.g. Bareksten Blueberry Liqueur",
+    "nb": "f.eks. Bareksten Blueberry Liqueur"
+  },
+  "Größe der Originalflasche · optional": {
+    "en": "Original bottle size · optional",
+    "nb": "Originalflaskens størrelse · valgfritt"
+  },
+  "Vom Flaschenetikett übernehmen": {
+    "en": "Copy from the bottle label",
+    "nb": "Hent fra flaskeetiketten"
+  },
+  "Ohne Flaschengröße zeigen wir cl. Flaschen und Rest folgen nach der Eingabe. 0,7 l = 700 ml.": {
+    "en": "Without a bottle size, we show cl. Bottle equivalents and remainders follow once it is entered. 0.7 l = 700 ml.",
+    "nb": "Uten flaskestørrelse viser vi cl. Antall flasker og rest vises når størrelsen er lagt inn. 0,7 l = 700 ml."
+  },
+  "Vorbereitete Infusion": {
+    "en": "Prepared infusion",
+    "nb": "Ferdig infusjon"
+  },
+  "Gezählt wird die fertige Infusion. Für den Gegenwert des Originalprodukts braucht BATCH eure Umrechnung.": {
+    "en": "The finished infusion is counted. BATCH needs your conversion to show the equivalent original product.",
+    "nb": "Den ferdige infusjonen telles. BATCH trenger deres omregning for å vise tilsvarende mengde originalprodukt."
+  },
+  "Originalprodukt je 1 ml fertige Infusion": {
+    "en": "Original product per 1 ml of finished infusion",
+    "nb": "Originalprodukt per 1 ml ferdig infusjon"
+  },
+  "Noch nicht bestätigt": {
+    "en": "Not confirmed yet",
+    "nb": "Ikke bekreftet ennå"
+  },
+  "Nur wenn ihr ohne Volumenänderung rechnet: 1 eingeben. Sonst euren bestätigten Faktor verwenden. Leer lassen zeigt ausschließlich die fertige Infusion.": {
+    "en": "Enter 1 only if you account for no volume change. Otherwise use your confirmed factor. Leave blank to show only the finished infusion.",
+    "nb": "Skriv inn 1 bare hvis dere regner uten volumendring. Ellers bruker dere bekreftet faktor. La feltet stå tomt for å vise bare den ferdige infusjonen."
+  },
+  "Originalblatt & Servierzugaben": {
+    "en": "Original recipe & service additions",
+    "nb": "Originaloppskrift og tilsetninger ved servering"
+  },
+  "Erst beim Servieren · nicht in der Inventur": {
+    "en": "Added at service · excluded from inventory",
+    "nb": "Tilsettes ved servering · ikke med i varetellingen"
+  },
+  "Menge offen": {
+    "en": "Amount unspecified",
+    "nb": "Mengde ikke angitt"
+  },
+  "Originalrezept: {volume} ml Batch pro Drink.": {
+    "en": "Original recipe: {volume} ml of batch per drink.",
+    "nb": "Originaloppskrift: {volume} ml batch per drink."
+  },
+  "Die Rechnung verwendet deine oben gespeicherten Batch-Zutaten.": {
+    "en": "Calculations use your batch ingredients saved above.",
+    "nb": "Beregningen bruker batch-ingrediensene du har lagret ovenfor."
+  },
+  "Glas": {
+    "en": "Glass",
+    "nb": "Glass"
+  },
+  "Garnitur": {
+    "en": "Garnish",
+    "nb": "Garnityr"
+  },
+  "Zubereitung": {
+    "en": "Method",
+    "nb": "Fremgangsmåte"
+  },
+  "Weißweinglas": {
+    "en": "White wine glass",
+    "nb": "Hvitvinsglass"
+  },
+  "Apfel / getrockneter Apfel": {
+    "en": "Apple / dried apple",
+    "nb": "Eple / tørket eple"
+  },
+  "Bananenchips": {
+    "en": "Banana chips",
+    "nb": "Bananchips"
+  },
+  "Blaubeeren": {
+    "en": "Blueberries",
+    "nb": "Blåbær"
+  },
+  "Kokos oder Himbeere": {
+    "en": "Coconut or raspberry",
+    "nb": "Kokos eller bringebær"
+  },
+  "Limette": {
+    "en": "Lime",
+    "nb": "Lime"
+  },
+  "Kamillentee": {
+    "en": "Chamomile tea",
+    "nb": "Kamille-te"
+  },
+  "Zitrone oder Limette · noch offen": {
+    "en": "Lemon or lime · to be confirmed",
+    "nb": "Sitron eller lime · må avklares"
+  },
+  "Teekanne und Tasse": {
+    "en": "Teapot and cup",
+    "nb": "Tekanne og kopp"
+  },
+  "Zitrus / Zitronenscheibe in der Tasse": {
+    "en": "Citrus / lemon slice in the cup",
+    "nb": "Sitrus / sitronskive i koppen"
+  },
+  "Tajín-Rand": {
+    "en": "Tajín rim",
+    "nb": "Tajín-kant"
+  },
+  "Im Glas aufbauen": {
+    "en": "Build in the glass",
+    "nb": "Bygg i glasset"
+  },
+  "Building: Alle Zutaten in die Teekanne geben, Eis hinzufügen, umrühren und am Tisch servieren.": {
+    "en": "Build: add all ingredients to the teapot, add ice, stir and serve at the table.",
+    "nb": "Ha alle ingrediensene i tekannen, tilsett is, rør og server ved bordet."
+  },
+  "Vodka mit Spirulina-Pulver mischen.": {
+    "en": "Mix vodka with spirulina powder.",
+    "nb": "Bland vodka med spirulinapulver."
+  },
+  "Coconut Rum mit Ube-Pulver mischen.": {
+    "en": "Mix coconut rum with ube powder.",
+    "nb": "Bland kokosrom med ubepulver."
+  },
+  "Gin mit Butterfly-Pea-Tee mischen.": {
+    "en": "Mix gin with butterfly pea tea.",
+    "nb": "Bland gin med butterfly pea-te."
+  },
+  "Tequila mit Chili infundieren.": {
+    "en": "Infuse tequila with chili.",
+    "nb": "Lag en infusjon av tequila og chili."
+  },
+  "Cane sugar syrup: 1 kg Rohrzucker + 750 ml Wasser. Endvolumen ist nicht angegeben.": {
+    "en": "Cane sugar syrup: 1 kg cane sugar + 750 ml water. Final volume is unspecified.",
+    "nb": "Rørsukkersirup: 1 kg rørsukker + 750 ml vann. Sluttvolum er ikke angitt."
+  },
+  "Die Prosecco-Menge ist nicht angegeben.": {
+    "en": "The Prosecco amount is unspecified.",
+    "nb": "Mengden Prosecco er ikke angitt."
+  },
+  "„Sugar“ ist mit 10 ml angegeben; Art und Zubereitung des flüssigen Zuckerprodukts sind nicht angegeben. Nicht automatisch mit dem Cane sugar syrup gleichsetzen.": {
+    "en": "“Sugar” is listed as 10 ml; the type and preparation of this liquid sugar product are unspecified. Do not automatically treat it as the cane sugar syrup.",
+    "nb": "«Sugar» er oppgitt som 10 ml; type og tilberedning av sukkerproduktet er ikke angitt. Det skal ikke automatisk regnes som rørsukkersirupen."
+  },
+  "Produktbezeichnungen „Attat plommlikor“ und „Drambui“ wurden wie auf dem Blatt übernommen; Flaschenetiketten bitte abgleichen.": {
+    "en": "“Attat plommlikor” and “Drambui” were transcribed as written on the sheet; please check the bottle labels.",
+    "nb": "«Attat plommlikor» og «Drambui» er gjengitt slik de står på arket; kontroller flaskeetikettene."
+  },
+  "Zitrus-Widerspruch: Rezeptblatt nennt 20 ml lemon juice, Serviceblatt 2 cl lime juice. Beides ist außerhalb des 60-ml-Batches.": {
+    "en": "Citrus conflict: the recipe says 20 ml lemon juice; the service sheet says 2 cl lime juice. Both are outside the 60 ml batch.",
+    "nb": "Sitrusavvik: Oppskriften sier 20 ml sitronsaft, serveringsarket sier 2 cl limesaft. Begge er utenfor batchen på 60 ml."
+  },
+  "Aus 1 kg Zucker und 750 ml Wasser lässt sich das fertige Sirupvolumen nicht durch Addition ableiten.": {
+    "en": "The finished syrup volume cannot be calculated by adding 1 kg of sugar and 750 ml of water.",
+    "nb": "Volumet av ferdig sirup kan ikke beregnes ved å legge sammen 1 kg sukker og 750 ml vann."
+  },
+  "Paloma enthält 75 % Chili-Tequila-Infusion. Beispiel: 700-ml-Batchflaschen, 700-ml-Originalflasche und ein bestätigter Infusionsfaktor von 1.": {
+    "en": "Paloma contains 75% chili tequila infusion. Example: 700 ml batch bottles, a 700 ml original bottle and a confirmed infusion factor of 1.",
+    "nb": "Paloma inneholder 75 % chili-tequila-infusjon. Eksempel: 700 ml batchflasker, 700 ml originalflaske og en bekreftet infusjonsfaktor på 1."
+  },
+  "Chili-Tequila-Infusion": {
+    "en": "Chili tequila infusion",
+    "nb": "Chili-tequila-infusjon"
+  },
+  "Attat plommlikor (laut Blatt)": {
+    "en": "Attat plommlikor (as written)",
+    "nb": "Attat plommlikor (som skrevet)"
+  },
+  "Drambui (laut Blatt)": {
+    "en": "Drambui (as written)",
+    "nb": "Drambui (som skrevet)"
+  },
+  "Vodka · Spirulina-Infusion": {
+    "en": "Vodka · spirulina infusion",
+    "nb": "Vodka · spirulinainfusjon"
+  },
+  "Sugar (10 ml laut Blatt)": {
+    "en": "Sugar (10 ml on sheet)",
+    "nb": "Sugar (10 ml på arket)"
+  },
+  "Bacardi Coconut Rum · Ube-Infusion": {
+    "en": "Bacardi Coconut Rum · ube infusion",
+    "nb": "Bacardi Coconut Rum · ubeinfusjon"
+  },
+  "Bacardi Rum (Variante offen)": {
+    "en": "Bacardi Rum (variant unspecified)",
+    "nb": "Bacardi Rum (variant ikke angitt)"
+  },
+  "Gin · Butterfly-Pea-Infusion": {
+    "en": "Gin · butterfly pea infusion",
+    "nb": "Gin · butterfly pea-infusjon"
+  },
+  "Tequila · Chili-Infusion": {
+    "en": "Tequila · chili infusion",
+    "nb": "Tequila · chiliinfusjon"
+  },
+  "Mezcal (Marke offen)": {
+    "en": "Mezcal (brand unspecified)",
+    "nb": "Mezcal (merke ikke angitt)"
+  },
+  "Peach Liqueur (Marke offen)": {
+    "en": "Peach Liqueur (brand unspecified)",
+    "nb": "Peach Liqueur (merke ikke angitt)"
+  },
+  "Cane sugar syrup · fertig": {
+    "en": "Cane sugar syrup · prepared",
+    "nb": "Rørsukkersirup · ferdig"
+  },
+  "Änderst du Zutaten, Mengen oder Batch-Flaschengröße, wird dieser Bestand geleert. Ein neues Foto, Name oder Hinweis erhält die Zählung.": {
+    "en": "Changing ingredients, amounts or batch bottle size clears this count. A new photo, name or note keeps the count.",
+    "nb": "Endrer du ingredienser, mengder eller batchflaskens størrelse, tømmes denne tellingen. Et nytt bilde, navn eller en merknad beholder tellingen."
+  },
+  "Bitte anmelden, um ein Bild hochzuladen.": {
+    "en": "Please sign in to upload a photo.",
+    "nb": "Logg inn for å laste opp et bilde."
+  },
+  "Bitte ein gültiges Foto auswählen.": {
+    "en": "Please choose a valid photo.",
+    "nb": "Velg et gyldig bilde."
+  },
+  "Das Bild ist zu groß. Bitte ein kleineres Foto auswählen.": {
+    "en": "The image is too large. Please choose a smaller photo.",
+    "nb": "Bildet er for stort. Velg et mindre bilde."
+  },
+  "Bild konnte nicht gespeichert werden. Bitte erneut versuchen.": {
+    "en": "The photo could not be saved. Please try again.",
+    "nb": "Bildet kunne ikke lagres. Prøv igjen."
+  },
+  "Dieses Bildformat kann hier nicht geöffnet werden. Bitte JPG, PNG oder WebP wählen.": {
+    "en": "This image format cannot be opened here. Please choose JPG, PNG or WebP.",
+    "nb": "Dette bildeformatet kan ikke åpnes her. Velg JPG, PNG eller WebP."
+  },
+  "Bild konnte nicht vorbereitet werden.": {
+    "en": "The image could not be prepared.",
+    "nb": "Bildet kunne ikke klargjøres."
+  },
+  "Bild für deinen Pre-Batch": {
+    "en": "Photo for your pre-batch",
+    "nb": "Bilde til pre-batchen din"
+  },
+  "Dein Foto · mit Rezept speichern": {
+    "en": "Your photo · save with the recipe",
+    "nb": "Ditt bilde · lagre med oppskriften"
+  },
+  "Ohne Foto: animierter Drink automatisch": {
+    "en": "No photo: an animated drink appears automatically",
+    "nb": "Uten bilde: en animert drink vises automatisk"
+  },
+  "Foto auswählen": {
+    "en": "Choose photo",
+    "nb": "Velg bilde"
+  },
+  "Kamera": {
+    "en": "Camera",
+    "nb": "Kamera"
+  },
+  "Bild wird vorbereitet und gespeichert …": {
+    "en": "Preparing and saving photo …",
+    "nb": "Klargjør og lagrer bilde …"
+  },
+  "Automatisches Bild verwenden": {
+    "en": "Use automatic image",
+    "nb": "Bruk automatisk bilde"
+  }
+}
