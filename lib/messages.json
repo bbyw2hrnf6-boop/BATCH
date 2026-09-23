@@ -1350,5 +1350,137 @@
   "Automatisches Bild verwenden": {
     "en": "Use automatic image",
     "nb": "Bruk automatisk bilde"
-  }
+  },
+    "Das hast du noch.": {
+      "en": "This is what you have left.",
+      "nb": "Dette har du igjen."
+    },
+    "Wir rechnen deine übrigen Pre-Batches in einzelne Zutaten um.": {
+      "en": "We break down your remaining pre-batches into individual ingredients.",
+      "nb": "Vi fordeler de gjenværende pre-batchene på ingredienser."
+    },
+    "Noch in gezählten Pre-Batches": {
+      "en": "Remaining in counted pre-batches",
+      "nb": "Igjen i registrerte pre-batcher"
+    },
+    "Pre-Batches gezählt": {
+      "en": "Pre-batches counted",
+      "nb": "Pre-batcher telt"
+    },
+    "{count} Pre-Batches noch offen": {
+      "en": "{count} pre-batches still to count",
+      "nb": "{count} pre-batcher gjenstår"
+    },
+    "Weiter zählen": {
+      "en": "Continue counting",
+      "nb": "Fortsett tellingen"
+    },
+    "Dein gezählter Restbestand": {
+      "en": "Your counted remaining stock",
+      "nb": "Din registrerte restbeholdning"
+    },
+    "Gezählte Batch-Flaschen": {
+      "en": "Counted batch bottles",
+      "nb": "Talte batchflasker"
+    },
+    "1 volle Flasche": {
+      "en": "1 full bottle",
+      "nb": "1 full flaske"
+    },
+    "{count} volle Flaschen": {
+      "en": "{count} full bottles",
+      "nb": "{count} fulle flasker"
+    },
+    "{volume} cl in Flasche {index}": {
+      "en": "{volume} cl in bottle {index}",
+      "nb": "{volume} cl i flaske {index}"
+    },
+    "+ {count} weitere": {
+      "en": "+ {count} more",
+      "nb": "+ {count} til"
+    },
+    "Kein Bestand erfasst": {
+      "en": "No remaining stock recorded",
+      "nb": "Ingen restbeholdning registrert"
+    },
+    "Noch vorhandener Pre-Batch": {
+      "en": "Pre-batch still available",
+      "nb": "Pre-batch som er igjen"
+    },
+    "Batch-Flaschengröße: {volume} cl": {
+      "en": "Batch bottle size: {volume} cl",
+      "nb": "Batchflaskestørrelse: {volume} cl"
+    },
+    "Füllstand geschätzt": {
+      "en": "Fill level estimated",
+      "nb": "Fyllnivå anslått"
+    },
+    "Laut Rezept enthalten:": {
+      "en": "Ingredients in the recipe:",
+      "nb": "Ingredienser i oppskriften:"
+    },
+    "Diese Zutaten stecken noch darin": {
+      "en": "These ingredients are still in it",
+      "nb": "Disse ingrediensene er fortsatt i blandingen"
+    },
+    "Noch vorhandene Zutaten": {
+      "en": "Remaining ingredients",
+      "nb": "Ingredienser som er igjen"
+    },
+    "Noch im Batch": {
+      "en": "Still in the batch",
+      "nb": "Fortsatt i batchen"
+    },
+    "Entspricht Originalprodukt": {
+      "en": "Equivalent original product",
+      "nb": "Tilsvarer originalprodukt"
+    },
+    "In der gezählten Mischung": {
+      "en": "In the counted mixture",
+      "nb": "I den registrerte blandingen"
+    },
+    "{rest} cl von {size} cl pro Flasche": {
+      "en": "{rest} cl of a {size} cl bottle",
+      "nb": "{rest} cl av en flaske på {size} cl"
+    },
+    "{count} volle Originalflaschen à {size} cl": {
+      "en": "{count} full original bottles of {size} cl",
+      "nb": "{count} fulle originalflasker à {size} cl"
+    },
+    "{count} volle Originalflaschen à {size} cl + {rest} cl": {
+      "en": "{count} full original bottles of {size} cl + {rest} cl",
+      "nb": "{count} fulle originalflasker à {size} cl + {rest} cl"
+    },
+    "1 volle Originalflasche à {size} cl": {
+      "en": "1 full original bottle of {size} cl",
+      "nb": "1 full originalflaske à {size} cl"
+    },
+    "1 volle Originalflasche à {size} cl + {rest} cl": {
+      "en": "1 full original bottle of {size} cl + {rest} cl",
+      "nb": "1 full originalflaske à {size} cl + {rest} cl"
+    },
+    "Was bedeuten die Mengen?": {
+      "en": "What do the quantities mean?",
+      "nb": "Hva betyr mengdene?"
+    },
+    "„Noch im Batch“ ist die Menge dieser Zutat in deinen gezählten Mischungen.": {
+      "en": "“Still in the batch” is the amount of this ingredient in your counted mixtures.",
+      "nb": "«Fortsatt i batchen» er mengden av denne ingrediensen i de registrerte blandingene."
+    },
+    "1 cl = 10 ml. 100 cl = 1 Liter.": {
+      "en": "1 cl = 10 ml. 100 cl = 1 liter.",
+      "nb": "1 cl = 10 ml. 100 cl = 1 liter."
+    },
+    "„Originalprodukt“ ist ein rechnerischer Gegenwert. Separate Originalflaschen sind nicht mitgezählt.": {
+      "en": "“Original product” is a calculated equivalent. Separate original bottles are not included.",
+      "nb": "«Originalprodukt» er en beregnet ekvivalent. Separate originalflasker er ikke tatt med."
+    },
+    "Verbrauch lässt sich erst mit bekanntem Anfangsbestand berechnen.": {
+      "en": "Consumption can only be calculated if the starting stock is known.",
+      "nb": "Forbruk kan bare beregnes når startbeholdningen er kjent."
+    },
+    "Zutat | Noch im Batch cl | Entspricht Originalprodukt cl | Originalflasche ml | Rechnerisch volle Flaschen | Rechnerischer Rest cl": {
+      "en": "Ingredient | Still in batch cl | Original product equivalent cl | Original bottle ml | Calculated full bottles | Calculated remainder cl",
+      "nb": "Ingrediens | Fortsatt i batchen cl | Tilsvarer originalprodukt cl | Originalflaske ml | Beregnede hele flasker | Beregnet rest cl"
+    }
 }
